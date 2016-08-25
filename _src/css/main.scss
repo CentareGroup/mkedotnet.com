@@ -1,22 +1,49 @@
 $red: #972122;
 $blue: #e8faf7;
+$black: #06132a;
 
+
+.fusion-header{
+    background-color:inherit;
+}
+#menu-centare-main-navigation{
+    >li>a{
+        line-height: 50px; 
+        height: 50px;
+        color:$black !important;
+        &:hover{
+            color:$red !important;
+            border-color:$red;
+        }
+    }
+}
 .post-content{
     #mkedotnet{
         h1,h2,h3,h4,h5,h6{
             line-height:1em !important;
+            color:$black;
+        }
+        a{
+            color:$black;
+            &:hover{
+                color:$red;
+            }
         }
         h1{
             font-size:30px;
+            font-family:'Fjalla One', Arial, Helvetica, sans-serif;
         }
         h2{
             font-size:24px;
+            font-family:'Fjalla One', Arial, Helvetica, sans-serif;
         }
         h3{
             font-size:20px;
+            font-family:'Oswald', Arial, Helvetica, sans-serif;
         }
         h4{
             font-size:20px;
+            font-family:'Oswald', Arial, Helvetica, sans-serif;
         }
         .speakers{
             .speaker{
