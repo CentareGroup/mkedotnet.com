@@ -1,11 +1,11 @@
 {
     "index":{
         "speaker": "paul-zolnierczyk",
-        "name": "Build native iOS, Android, Mac & Windows Apps in C# with Xamarin",
+        "name": "An Introduction to Xamarin",
         "description": "Build native iOS, Android, Mac & Windows Apps in C# with Xamarin",
         "timeslot": "9:45 - 10:45",
         "room":"Woodfield",
-        "title": "Build native iOS, Android, Mac & Windows Apps in C# with Xamarin | Sessions | MKE DOT NET",
-        "metaDescription":"Build native iOS, Android, Mac & Windows Apps in C# with Xamarin"
+        "title": "An Introduction to Xamarin | Sessions | MKE DOT NET",
+        "metaDescription":"An Introduction to Xamarin"
     }
 }
