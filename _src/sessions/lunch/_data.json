@@ -1,0 +1,11 @@
+{
+    "index":{
+        "speaker": null,
+        "name": "Lunch & Networking",
+        "description": "Lunch will be served in the Grand Salon.",
+        "timeslot": "12:00 - 1:15",
+        "room":"Grand Salon",
+        "title": "Lunch & Networking | Sessions | MKE DOT NET",
+        "metaDescription":"Lunch & Networking"
+    }
+}

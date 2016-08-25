@@ -4,6 +4,10 @@
         "metaDescription":"MKE DOT NET 2016 Schedule",
         "timeSlots":[
             {
+                "name":"Registration & Check In",
+                "time":"7:45 - 8:15"
+            },
+            {
                 "name":"Keynote",
                 "time":"8:15 - 9:30"
             },

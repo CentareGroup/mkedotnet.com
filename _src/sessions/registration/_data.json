@@ -1,0 +1,11 @@
+{
+    "index":{
+        "speaker": null,
+        "name": "Registration & Check In",
+        "description": "Check in for a great day of learning, in the atrium.",
+        "timeslot": "7:45 - 8:15",
+        "room":"Atrium",
+        "title": "Registration & Check In | Sessions | MKE DOT NET",
+        "metaDescription":"Registration & Check In"
+    }
+}
