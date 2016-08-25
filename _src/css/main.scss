@@ -1,16 +1,14 @@
 $red: #972122;
-$blue: #e8faf7;
+$dark-blue: #568392;
+$medium-blue: #aedbd3;
+$light-blue: #e8faf7;
 $black: #06132a;
 
-
-.fusion-header{
-    background-color:inherit;
-}
 #menu-centare-main-navigation{
     >li>a{
         line-height: 50px; 
         height: 50px;
-        color:$black !important;
+        color:$dark-blue !important;
         &:hover{
             color:$red !important;
             border-color:$red;
@@ -24,7 +22,7 @@ $black: #06132a;
             color:$black;
         }
         a{
-            color:$black;
+            color:$dark-blue;
             &:hover{
                 color:$red;
             }
@@ -49,7 +47,7 @@ $black: #06132a;
             .speaker{
                 margin:1em 0;
                 padding:0 1em;
-                border:2px solid $blue;
+                border:2px solid $medium-blue;
             }
         }
 
@@ -67,7 +65,7 @@ $black: #06132a;
                 .scheduleSession{
                     margin:1em 0;
                     padding:0 1em;
-                    border:2px solid $blue;
+                    border:2px solid $medium-blue;
                 }
             }
         }
