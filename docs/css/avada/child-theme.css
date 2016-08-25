@@ -1,0 +1,134 @@
+/*
+Theme Name: Avada Child Theme
+Template: Avada
+*/
+
+/* Enter Your Custom CSS Here */
+h1 { font-weight: 300 !important; }
+h2 { font-family: 'Oswald' !important; font-weight: 100 !important; }
+h3 { font-weight: 300 !important; }
+h4 { font-weight: 500 !important; }
+h5 { font-weight: 500 !important; }
+h6 { font-weight: 500 !important; }
+a.button { font-weight: bold; }
+.prompt {font-weight:bold;}
+label {position:relative; line-height:32px; margin-bottom:8px;}
+label input[type="radio"] {position:absolute; left:0px; top:0px;}
+label input[type="radio"] + span {line-height:32px; margin-left:28px; display:block;}
+
+/*Nav Dropdown Overrides*/
+.fusion-main-menu ul li a, #wrapper #sticky-nav ul li ul li > a { font-weight: 100 !important; font-size:1em !important; color: #37226a !important;}
+
+/*Fusion Nav Overides*/
+#nav li, #sticky-nav li { font-weight: 100 !important; font-size:2.2em; }
+
+/*Mobile Nav Overides*/
+#nav .mobile-nav-item a, #sticky-nav .mobile-nav-item a, .navigation .mobile-nav-item a, .side-nav .mobile-nav-item a { font-weight: 100 !important; font-size:2.2em !important; color: #37226a !important;}
+
+/*Fusion Title Caption Overides*/
+h1.entry-title { color:#f18a20 !important; font-weight: 100 !important; font-size:3em !important; }
+h2.entry-title { font-size:36px !important; }
+
+/*Sidebar Widget Overides*/
+.sidebar .widget h3 { font-weight: 500 !important; font-size:20px !important;}
+
+/*Fusion Person Overides*/
+.person-desc .person-name, .person-desc .person-title{ font-weight: 500 !important; font-size:18px !important; line-height:22px !important;}
+ 
+/*Fusion Testimonials Overides*/
+.fusion-testimonials blockquote q { font-weight: 500 !important; font-style:normal !important; }
+
+/*Fusion Toggle Overides*/
+.panel-title.toggle a {padding-left:40px; font-weight: 500 !important; font-size:20px !important; color: #37226a !important; text-transform:uppercase;}
+.panel-title.toggle a i {position:absolute; left:0px;}
+
+/*Fusion Slider Overrides*/
+.heading h2 { font-weight: 300 !important; line-height: 100px !important; text-shadow: 1px 3px 2px rgba(0,0,0,0.3);}
+.caption h3 { font-weight: 100 !important; line-height: 65px !important; text-shadow: 1px 3px 2px rgba(0,0,0,0.3);}
+
+/* Home Page Flip Box */
+#wrapper .post-content h2.flip-box-heading  { font-family: 'Fjalla One' !important; font-size:36px; text-transform: uppercase; font-weight: 100 !important; line-height: 42px  !important; }
+#wrapper .post-content h3.flip-box-heading-back { font-size:24px !important; text-transform:uppercase; font-weight: 100 !important; font-variant: normal; line-height: 35px  !important;}
+#wrapper .post-content h2, #wrapper .fusion-title h2, #wrapper #main .post-content .fusion-title h2, #wrapper .title h2, #wrapper #main .post-content .title h2, #wrapper #main .post h2, #wrapper .woocommerce .checkout h3, .cart-empty { line-height: 1.4em !important; }
+
+/* Footer */
+.footer-area h3 { font-weight: bold !important; font-size:20px !important; font-variant: normal; text-transform: none;  }
+
+/* Logo Frame Border */
+.imageframe img, .es-carousel-wrapper.fusion-carousel-small .es-carousel ul li img {border:none !important;}
+
+/* Careers page Fixes */
+@media (max-width: 350px) {
+ 	#career-opportunities .avada-row {
+		min-width: 280px;
+	  	margin: 0;
+	  	padding: 0;
+	  	position: relative;
+	  	left: -20px;
+	}
+}
+
+/* CATS Job Description */
+#careersContent a.jobTitle {font-family: 'Oswald' !important; font-weight: 100 !important; color:#37226a !important; font-size:22px !important;}
+
+
+/*HubSpot Form Button Formatting*/
+.hubspot-cta-form-button {background-color: #f18a20;color: #ffffff; border-width: 0px ;border-radius: 10px; padding: 8px 8px; font-weight: bold !important;}
+
+.hubspot-cta-form-button:hover {background-color:#c0d62e}
+
+span.hs-cta-wrapper {
+display:block;
+text-align:center;
+}
+
+
+/*HubSpot Form Button Formatting MKE DOT NET*/
+.hubspot-cta-form-button-mke-dot-net {background-color: #06132a;color: #ffffff; border-width: 0px ;border-radius: 10px; padding: 8px 8px; / font-weight: bold !important;}
+
+.hubspot-cta-form-button-mke-dot-net:hover {background-color:#aedbd3}
+
+span.hs-cta-wrapper {
+display:block;
+text-align:center;
+}
+
+/*HubSpot Form Field Label Formatting MKE DOT NET*/
+.form-container-darkbg .hs-form label {color:#fff;}
+
+/*Blog Post Titles*/
+div.post > .entry-title {
+	color: rgb(55, 34, 106) !important;
+	display: block !important;
+	font-size: 60px !important;
+	font-stretch: normal !important;
+	font-style: normal !important;
+	font-variant: normal !important;
+	font-weight: 300 !important;
+    text-transform: uppercase;
+  	line-height: 1em;
+}
+
+/* Home Page Header */
+#sliders-container div.heading > h1 {
+color: rgb(255, 255, 255);
+font-weight: 300;
+height: 200px;
+line-height: 100px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+text-shadow: rgba(0, 0, 0, 0.298039) 1px 3px 2px;
+}
+
+.fusion-button-text { 
+	font-weight: bold !important;
+	font-size:20px !important;
+	line-height:30px;
+}
+
+.sidebar .widget h4 { 
+	font-size: 20px !important;
+}
