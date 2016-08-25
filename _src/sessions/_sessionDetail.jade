@@ -1,0 +1,9 @@
+article.session
+    h1 #{name}
+    if speaker && public.speakers[speaker]
+        h2
+            a(href='/speakers/#{speaker}') #{public.speakers[speaker]._data.index.name}
+    h4 #{room}, #{timeslot}
+    p
+        != description
+    

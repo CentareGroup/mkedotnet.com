@@ -1,0 +1,11 @@
+{
+    "index":{
+        "name": "Scott Hanselman",
+        "sessions": ["open-source-dotnet", "information-overload"],
+        "bio": "Scott is a web developer who has been blogging at http://hanselman.com for over a decade. He works in Open Source on ASP.NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has three podcasts, http://hanselminutes.com for tech talk, http://thisdeveloperslife.com on developers' lives and loves, and http://ratchetandthegeek.com for pop culture and tech media. He's written a number of books and spoken in person to almost a half million developers worldwide.",
+        "blog":"hanselman.com",
+        "twitter":"@Shanselman",
+        "title": "Scott Hanselman | Speakers | MKE DOT NET",
+        "metaDescription":"Speaker Bio for Scott Hanselman"
+    }
+}

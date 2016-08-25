@@ -1,0 +1,11 @@
+{
+    "index":{
+        "speaker": "scott-hanselman",
+        "name": "Inside Open Source Cross-Platform .NET",
+        "description": "It’s finally happened. .NET Core and ASP.NET Core are open source and run nearly everywhere. Microsoft developers work in the open on GitHub and iterate quickly. How did this happen? Join Scott Hanselman as he delves into 15 years of .NET history and what it took to reach this point. What do YOU need to know about .NET Core and ASP.NET Core, and how does it work?",
+        "timeslot": "8:15 - 9:30",
+        "room":"Grand Salon",
+        "title": "Inside Open Source Cross-Platform .NET | Sessions | MKE DOT NET",
+        "metaDescription":"Inside Open Source Cross-Platform .NET"
+    }
+}

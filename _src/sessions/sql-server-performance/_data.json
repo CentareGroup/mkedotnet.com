@@ -1,0 +1,11 @@
+{
+    "index":{
+        "speaker": "david-berry",
+        "name": "What Every Developer Should Know About SQL Server Performance",
+        "description": "<p>Are you mystified by SQL Server performance?  Do you wonder why sometimes your SQL statements runs fast but other times, they run painfully slow?  Do you wish there was a pragmatic set of steps you could go through to troubleshoot performance problems that didn't require you to have a PhD in database internals?  If so, this talk is for you.</p><p>In this talk, I'll describe database performance from a developer's point of view.  I'll show how you can accurately measure the performance of any SQL statement, how to understand what the statement is doing when it runs and what you can do to improve this performance.  I'll show how the right database indexes help SQL Server locate the data your application needs very efficiently and what you need to know to create effective indexes for your application.  Finally, I'll discuss how you can use built in capabilities in SQL Server to find your worst performing statements and tables that are missing indexes so you can quickly find and solve your biggest performance bottlenecks.  At the end of this talk, you will no longer regard database performance as black magic, but instead be able to confidently analyze and solve any performance problems you encounter.</p>",
+        "timeslot": "9:45 - 10:45",
+        "room":"Ballroom 2",
+        "title": "What Every Developer Should Know About SQL Server Performance | Sessions | MKE DOT NET",
+        "metaDescription":"What Every Developer Should Know About SQL Server Performance"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "index":{
+        "speaker": "scott-addie",
+        "name": "From Legacy MVC to Modern MVC: An ASP.NETCore Migration Path",
+        "description": "With all the buzz around Microsoft’s revitalized ASP.NET MVC Core framework, you may wonder what has changed since your “legacy” ASP.NET MVC application was written. Sure, there are new framework features and development tools available; but, which of these things are actually worth adopting and when? Should I stick with ASP.NET Web Optimization for bundling & minification, or should I use Gulp? What’s the difference between a tag helper and an HTML helper? Which package manager(s) should I use to acquire the requisite bits and assets? How does the framework support dependency injection for my controllers? Should I target .NET Framework, .NET Core, or both?  Lend me 60 minutes of your time, and I’ll answer these and some other frequently asked questions. You’ll leave with a clearer picture of a practical migration path for your aging MVC application.",
+        "timeslot": "9:45 - 10:45",
+        "room":"Ballroom 1",
+        "title": "From Legacy MVC to Modern MVC: An ASP.NETCore Migration Path | Sessions | MKE DOT NET",
+        "metaDescription":"From Legacy MVC to Modern MVC: An ASP.NETCore Migration Path"
+    }
+}

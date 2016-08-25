@@ -1,0 +1,11 @@
+{
+    "index":{
+        "name": "Matthew Soucoup",
+        "sessions": ["xamarin-forms"],
+        "bio": "Matthew Soucoup is a Xamarin MVP, a principal at Code Mill Technologies, and the founder of the Madison Mobile .Net Developers group. Matt loves sharing his passion for mobile development with fellow developers and he regularly speaks at user groups and conferences throughout the nation including Xamarin Evolve, That Conference, St Louis Days of .Net and CodeMash. He has over 15 years of development experience in a variety of areas including working with C# since 2005 and focusing on mobile development since 2012. Matt blogs at http://codemilltech.com and posts random thoughts on Twitter @codemillmatt. When not behind a computer screen, Matt gardens hot peppers, rides bikes and loves Wisconsin micro-brews and cheese.",
+        "blog":"codemilltech.com",
+        "twitter":"@codemillmatt",
+        "title": "Matthew Soucoup | Speakers | MKE DOT NET",
+        "metaDescription":"Speaker Bio for Matthew Soucoup"
+    }
+}

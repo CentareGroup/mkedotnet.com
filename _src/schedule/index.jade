@@ -1,0 +1,20 @@
+-function getSessionsForTimeslot(timeslot){
+-    return _.sortBy(_.filter(Object.keys(public.sessions).map(function(key) {
+-            return _.assign(public.sessions[key]._data.index, {key: key});
+-        }), function(item){ 
+-            return item.timeslot == timeslot
+-        }), 'room'); 
+-}
+h1 Schedule
+p Check out the super sweet schedule at this year's MKE DOT NET!
+
+//- pre #{ JSON.stringify(getSessionsForTimeslot('1:15 - 2:15')), null, '\t')
+
+div.schedule
+    for timeslot in timeSlots
+        != partial("_timeslot")
+        article.timeslot
+            h1 #{timeslot.name} (#{timeslot.time})
+            
+            for session in getSessionsForTimeslot(timeslot.time)
+                != partial("_scheduleSession", { session: session })

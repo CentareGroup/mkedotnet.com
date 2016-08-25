@@ -1,0 +1,48 @@
+$red: #972122;
+$blue: #e8faf7;
+
+.post-content{
+    #mkedotnet{
+        h1,h2,h3,h4,h5,h6{
+            line-height:1em !important;
+        }
+        h1{
+            font-size:30px;
+        }
+        h2{
+            font-size:24px;
+        }
+        h3{
+            font-size:20px;
+        }
+        h4{
+            font-size:20px;
+        }
+        .speakers{
+            .speaker{
+                margin:1em 0;
+                padding:0 1em;
+                border:2px solid $blue;
+            }
+        }
+
+        .schedule{
+            h1{
+                line-height:1em;
+            }
+            .timeslot{
+                &>h1{
+                    background-color:$red;
+                    color:white;
+                    padding: 0.5em;
+                    margin:0;
+                }
+                .scheduleSession{
+                    margin:1em 0;
+                    padding:0 1em;
+                    border:2px solid $blue;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "404":{
+        "pageType":"main",
+        "title": "Page Not Found | MKE DOT NET",
+        "metaDescription":"404 Page Not Found!"
+    },
+    "index":{
+        "pageType":"main",
+        "title":"Milwaukee .NET Development Conference | MKE DOT NET",
+        "metaDescription":"Join us for MKE DOT NET, an annual one-day conference by .NET developers, for .NET developers held in the Milwaukee area."
+    }
+}

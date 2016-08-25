@@ -1,0 +1,10 @@
+article.scheduleSession
+    h1
+        a(href='/sessions/#{session.key}') #{session.name}
+    if session.speaker && public.speakers[session.speaker]
+        h2
+            a(href='/speakers/#{session.speaker}') #{public.speakers[session.speaker]._data.index.name}
+    h4 #{session.room} 
+    p
+        != session.description
+    

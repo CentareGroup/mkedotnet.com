@@ -1,0 +1,11 @@
+{
+    "index":{
+        "speaker": "dan-piessens",
+        "name": "Command your environments with ChatOps... /deploy!",
+        "description": "<p>&quot;Make it so, number 1!&quot; The ease with which these Star Trek commands are done is an ideal, but environment in which we work isn't nearly as automated! We have development and operations teams cobbling together data from disparate systems, talking to each other with chat streams like Hipchat or Slack and then trying to command complicated infrastructure. This often becomes chaotic during incidents and leads to errors. What if you could capture a piece of that Star Trek world and surface key information, issue key commands and communicate all in a single medium?</p><p>In this talk, I'll explain how to take the chat client you may have today and incorporate it into deployment, monitoring and support streams. We'll cover the basics of infrastructure management and demo how to integrate external tools including a a detailed technical implementation of creating chat command and designing key incoming alerts. I'll also highlight the benefits to your team like integrated security and a single combined source of truth that can be invaluable during retrospectives or critical support situations. Additionally I will cover the common dysfunctions and resolution tips that arise from leveraging a chat tool as a primary information source. Learn to combine communication and technology into one harmonious stream of information!</p>",
+        "timeslot": "11:00 - 12:00",
+        "room":"Ballroom 1",
+        "title": "Command your environments with ChatOps... /deploy! | Sessions | MKE DOT NET",
+        "metaDescription":"Command your environments with ChatOps... /deploy!"
+    }
+}

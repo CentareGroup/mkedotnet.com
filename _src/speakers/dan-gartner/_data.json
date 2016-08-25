@@ -1,0 +1,11 @@
+{
+    "index":{
+        "name": "Dan Gartner",
+        "sessions": ["cd-with-visual-studio-team-services"],
+        "bio": "Dan Gartner is a Developer Technology Specialist at Microsoft, focused on helping customers be successful through continuous improvement on the Microsoft development platform. He has spoken at events such as Chicago Code Camp, MKE.NET, That Conference, etc.",
+        "blog":"blogs.msdn.microsoft.com/dgartner/",
+        "twitter":"@dgartner",
+        "title": "Dan Gartner | Speakers | MKE DOT NET",
+        "metaDescription":"Speaker Bio for Dan Gartner"
+    }
+}
