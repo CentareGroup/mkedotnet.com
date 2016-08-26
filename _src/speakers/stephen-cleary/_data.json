@@ -2,7 +2,7 @@
     "index":{
         "name": "Stephen Cleary",
         "sessions": ["asynchronous-parallel-reactive-help"],
-        "bio": "",
+        "bio": "<p>Stephen Cleary is a Christian, husband, and father who programs software in his spare time. :)</p><p>He is a Microsoft MVP and the author of &quot;Concurrency in C# Cookbook&quot; (O'Reilly) as well as several MSDN articles. He's also the top answerer for async/await questions on Stack Overflow.</p><p>His work usually deals with asynchronous and multithreaded programming, but he finds any challenging subject interesting. These days he uses C#/JavaScript, but remains interested in many different languages.</p>",
         "blog":"www.stephencleary.com",
         "twitter":"@aSteveCleary",
         "title": "Stephen Cleary | Speakers | MKE DOT NET",
