@@ -2,7 +2,7 @@
     "index":{
         "name": "Benjamin Day",
         "sessions": ["better-authorization"],
-        "bio": "Benjamin Day is a consultant and trainer specializing in software best practices using Scrum with Microsoft’s ALM tools. Ben’s main areas of emphasis include Team Foundation Server, Scrum, software testing, and software architecture. He is a Microsoft Visual Studio ALM MVP, a certified Scrum trainer via Scrum.org, and a speaker at conferences such as TechEd and VSLive. When not developing software, Ben’s been known to go running and sea kayaking in order to balance out his love of cheese, cured meats, and champagne. His online courses are available at http://www.pluralsight.com. He can be contacted via http://www.benday.com.",
+        "bio": "Benjamin Day is a consultant and trainer specializing in software best practices using Scrum with Microsoft’s ALM tools. Ben’s main areas of emphasis include Team Foundation Server, Scrum, software testing, and software architecture. He is a Microsoft Visual Studio ALM MVP, a certified Scrum trainer via Scrum.org, and a speaker at conferences such as TechEd and VSLive. When not developing software, Ben’s been known to go running and sea kayaking in order to balance out his love of cheese, cured meats, and champagne. His online courses are available at <a href=\"http://www.pluralsight.com\">http://www.pluralsight.com</a>. He can be contacted via <a href=\"http://www.benday.com\">http://www.benday.com</a>.",
         "title": "Benjamin Day | Speakers | MKE DOT NET",
         "metaDescription":"Speaker Bio for Benjamin Day"
     }

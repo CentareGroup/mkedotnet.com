@@ -1,0 +1,16 @@
+{
+  "name": "mkedotnet",
+  "version": "1.0.0",
+  "description": "MKEDOTNET.com website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "normalize.css": "^4.2.0",
+    "skeleton-scss": "^2.0.4"
+  }
+}

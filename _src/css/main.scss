@@ -1,73 +1,128 @@
-$red: #972122;
-$dark-blue: #568392;
-$medium-blue: #aedbd3;
-$light-blue: #e8faf7;
-$black: #06132a;
 
-#menu-centare-main-navigation{
-    >li>a{
-        line-height: 50px; 
-        height: 50px;
-        color:$dark-blue !important;
-        &:hover{
-            color:$red !important;
-            border-color:$red;
+@import '_variables.scss';
+@import '../../node_modules/skeleton-scss/scss/skeleton.scss';
+
+body{
+    font-size:18px;
+    line-height:24px;
+}
+header, footer{
+    overflow:auto;
+    background-color: $light-blue;
+}
+footer{
+    height:40px;
+}
+.content{
+    border-top:12px solid $red;
+    border-bottom:12px solid $red;
+    padding-top: 60px;
+}
+#main-menu{
+    height: 5rem;
+
+    .logo{
+        overflow: hidden;
+        height: 70px;
+        width: 400px;
+        background: url('http://www.centare.com/wp-content/uploads/2016/04/MKE_DOT_NET_400px.png');
+        background-position: 0 -169px;
+        background-repeat: no-repeat;
+    }
+
+    >ul{
+        list-style:none;
+        >li{
+            float: left;
+            margin-right:45px;
+            font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+            >a{
+                display:block;
+                width:auto;
+                border-top: 3px solid transparent;
+                line-height: 50px; 
+                height: 50px;
+                color:$black !important;
+                text-decoration:none;
+                &:hover{
+                    color:$dark-blue !important;
+                    border-color:$dark-blue;
+                }
+            }
         }
     }
 }
-.post-content{
-    #mkedotnet{
-        h1,h2,h3,h4,h5,h6{
-            line-height:1em !important;
-            color:$black;
-        }
-        a{
-            color:$dark-blue;
-            &:hover{
-                color:$red;
-            }
-        }
-        h1{
-            font-size:30px;
-            font-family:'Fjalla One', Arial, Helvetica, sans-serif;
-        }
-        h2{
-            font-size:24px;
-            font-family:'Fjalla One', Arial, Helvetica, sans-serif;
-        }
-        h3{
-            font-size:20px;
-            font-family:'Oswald', Arial, Helvetica, sans-serif;
-        }
-        h4{
-            font-size:20px;
-            font-family:'Oswald', Arial, Helvetica, sans-serif;
-        }
-        .speakers{
-            .speaker{
-                margin:1em 0;
-                padding:0 1em;
-                border:2px solid $medium-blue;
-            }
-        }
+.hero{
+    padding-bottom:60px;
+    .hero-presented{
+        padding-top: 40px;
+    }
+    .hero-copy{
+        padding-top: 110px;
+    }
+}
 
-        .schedule{
-            h1{
-                line-height:1em;
-            }
-            .timeslot{
-                &>h1{
-                    background-color:$red;
-                    color:white;
-                    padding: 0.5em;
-                    margin:0;
-                }
-                .scheduleSession{
-                    margin:1em 0;
-                    padding:0 1em;
-                    border:2px solid $medium-blue;
-                }
-            }
+h1,h2,h3,h4,h5,h6{
+    line-height:1em !important;
+    color:$black;
+}
+a{
+    color:$dark-blue;
+    &:hover{
+        color:$red;
+    }
+}
+h1{
+    font-size:30px;
+    font-family:'Fjalla One', Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size:24px;
+    font-family:'Fjalla One', Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size:20px;
+    font-family:'Oswald', Arial, Helvetica, sans-serif;
+}
+h4{
+    font-size:20px;
+    font-family:'Oswald', Arial, Helvetica, sans-serif;
+}
+.speakers{
+    .speaker{
+        margin:1em 0;
+        padding:0 1em;
+        border:2px solid $medium-blue;
+    }
+}
+
+.schedule{
+    h1{
+        line-height:1em;
+    }
+    .timeslot{
+        &>h1{
+            background-color:$red;
+            color:white;
+            padding: 0.5em;
+            margin:0;
+        }
+        .scheduleSession{
+            margin:1em 0;
+            padding:0 1em;
+            border:2px solid $medium-blue;
         }
     }
+}
+
+.center{
+    text-align: center;
+}
+.highlight{
+    color: $red;
+    font-weight:bold;
+}
+.main-block{
+    padding:10px;
+    margin-bottom: 20px;
 }

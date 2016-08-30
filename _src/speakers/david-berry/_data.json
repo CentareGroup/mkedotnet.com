@@ -3,7 +3,7 @@
         "name": "David Berry",
         "sessions": ["sql-server-performance"],
         "bio": "<p>I'm a Solutions Architect with over 20 years of experience in building software systems. I started out as a Java developer and then switched to .NET in 2003.  I've also done significant work with SQL Server and Oracle.  I'm a Pluralsight author and I have presented talks at That Conference, Iowa Code Camp, Twin Cities Code Camp, Fox Valley .NET Users Group and the Cedar Rapids .NET Users Group.</p><p>In addition to my Pluralsight coursework and speaking experience, I've done lots of work in helping to mentor others in how to design and build better software systems. I try to bring a pragmatic approach to everything I do, making sure the software I build is simple, understandable and balances responsibilities between different components of the system. When speaking or teaching, I emphasize real world scenarios encountered by developers every day and show how to solve them so you can be more effective at what you do.</p>",
-        "blog":"buildingbettersoftware.blogspot.com/",
+        "blog":"buildingbettersoftware.blogspot.com",
         "twitter":"@DavidCBerry13",
         "title": "David Berry | Speakers | MKE DOT NET",
         "metaDescription":"Speaker Bio for David Berry"    

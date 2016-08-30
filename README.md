@@ -17,6 +17,11 @@ You will then need to install HarpJs locally.
 
 After that, clone the repo, and open a command line where the repo is cloned.
 
+## Restoring packages 
+The scss of the app is driven off of skeleton-scss, which is installed via npm. You will need to restore npm packages in order to build/run the app.
+
+`npm install` 
+
 ## Running a local instance
 To run the site locally, run `harp server _src --port 9876` (or whichever port you prefer)
 
