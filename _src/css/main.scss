@@ -4,7 +4,13 @@
 
 $bp-smaller-than-phablet    : "max-width: 400px" !default;
 $bp-smaller-than-tablet    : "max-width: 550px" !default;
+$bp-large-nav-starts-at : "900px";
+$bp-medium-nav-starts-at : "460px"; 
 
+html{
+    min-height: 100%;
+    position: relative;
+}
 body{
     font-size:18px;
     line-height:24px;
@@ -15,56 +21,11 @@ header, footer{
 }
 footer{
     height:40px;
-}
-
-.content{
+    position:absolute;
+    bottom:0;
+    left: 0;
     border-top:12px solid $red;
-    border-bottom:12px solid $red;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-#main-menu{
-    height: 5rem;
-
-    .logo{
-        overflow: hidden;
-        height: 70px;
-        width: 400px;
-        background: url('http://www.centare.com/wp-content/uploads/2016/04/MKE_DOT_NET_400px.png');
-        background-position: 0 -169px;
-        background-repeat: no-repeat;
-    }
-
-    >ul{
-        list-style:none;
-        >li{
-            float: left;
-            margin-right:45px;
-            font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
-            >a{
-                display:block;
-                width:auto;
-                border-top: 3px solid transparent;
-                line-height: 50px; 
-                height: 50px;
-                color:$black;
-                text-decoration:none;
-                &:hover{
-                    color:$dark-blue;
-                    border-color:$dark-blue;
-                }
-            }
-        }
-    }
-}
-.hero{
-    padding-bottom:60px;
-    .hero-presented{
-        padding-top: 40px;
-    }
-    .hero-copy{
-        padding-top: 110px;
-    }
+    right: 0;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -98,6 +59,26 @@ h4{
 }
 h5,h6{
     font-family:'Oswald', Arial, Helvetica, sans-serif;    
+}
+
+.button.button-primary{
+    font-size:1.5rem;
+}
+.content{
+    border-top:12px solid $red;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 52px; //height of footer;
+}
+
+.hero{
+    padding-bottom:60px;
+    .hero-presented{
+        padding-top: 40px;
+    }
+    .hero-copy{
+        padding-top: 20px;
+    }
 }
 
 .speakers{
@@ -136,6 +117,133 @@ h5,h6{
     margin-bottom: 20px;
 }
 
+// grid-column-width(12);
+#main-menu{
+    height: 5rem;
+
+    #wordmark{
+        margin:0;
+        text-indent: -9999px;
+        background: transparent url('/images/MKE_DOT_NET_name.png') center center no-repeat;
+        background-size: 100%;
+        float:left;
+        width:300px;
+        height:80px;
+        >a{
+            line-height: 80px;
+            display:block;
+        }
+        &.main{
+            display:none;
+        }
+    }
+
+    >ul{
+        float: right;
+        list-style:none;
+        >li{
+            float: left;
+            margin-right:45px;
+            font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+            &:last-child{
+                margin-right:0;
+            }
+            >a{
+                display:block;
+                width:auto;
+                border-top: 3px solid transparent;
+                line-height: 50px; 
+                height: 50px;
+                color:$black;
+                text-decoration:none;
+                &:hover{
+                    color:$dark-blue;
+                    border-color:$dark-blue;
+                }
+            }
+        }
+    }
+}
+@media (max-width:$bp-large-nav-starts-at){
+    #main-menu
+    {
+        #wordmark{
+            a{
+                width:100%;
+            }
+            &.main{
+                display:block;
+            }
+        }
+        >ul{
+            float: none;
+            list-style:none;
+            >li{
+                float: left;
+                margin-right:45px;
+                font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+                >a{
+                    display:block;
+                    width:auto;
+                    border-top: 3px solid transparent;
+                    line-height: 50px; 
+                    height: 50px;
+                    color:$black;
+                    text-decoration:none;
+                    &:hover{
+                        color:$dark-blue;
+                        border-color:$dark-blue;
+                    }
+                }
+            }
+        }        
+    }
+}
+@media (max-width:$bp-medium-nav-starts-at){
+    #main-menu
+    {
+        #wordmark{
+            width:260px;
+            float:none;
+            margin-left: auto;
+            margin-right: auto;
+            a{
+            }
+        }
+        >ul{
+            width: 100%;
+            >li{
+                width:100%;
+                text-align:center;
+            }
+        }
+    }
+}
+@media (min-width:$bp-medium-nav-starts-at) and (max-width:$bp-large-nav-starts-at){
+    #main-menu{
+        width: 100%; 
+        margin-left: 0;
+        text-align:center;
+        height:auto;
+        #wordmark {
+            width:300px;
+            float:none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        >ul{
+            display: inline-block;
+            margin:10px 0;
+            padding:2px;
+            >li{
+                display:inline-block;
+                >a{
+                    display:inline-block;
+                }
+            }
+        }   
+    }
+}
 
 @media ($bp-smaller-than-tablet)
 {
