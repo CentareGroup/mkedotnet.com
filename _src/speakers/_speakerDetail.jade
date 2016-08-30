@@ -1,19 +1,21 @@
 article.speaker
     h1 #{name}
     if twitter
-        h5 
+        h3 
             a(href='https://twitter.com/#{twitter}') #{twitter}
     if blog
-        h5 
+        h3
             a(href='http://#{blog}') #{blog}
     p
         != bio
     
     if sessions && sessions.length > 0
+        hr
         h2 Sessions
         for session in sessions 
             if public.sessions[session]
                 h3
                     a(href='/sessions/#{session}') #{public.sessions[session]._data.index.name}
-                h4 #{public.sessions[session]._data.index.room}, #{public.sessions[session]._data.index.timeslot}
+                h4 #{public.sessions[session]._data.index.room}
+                h4 #{public.sessions[session]._data.index.timeslot}
     

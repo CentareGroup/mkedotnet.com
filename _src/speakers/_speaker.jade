@@ -1,8 +1,10 @@
 article.speaker
     h1
         a(href='/speakers/#{slug}') #{speaker.name}
-    p
-        != speaker.bio
+    div.hide-small
+        p
+            != speaker.bio
+        hr
     h3 Sessions
     for session in speaker.sessions 
         if public.sessions[session]

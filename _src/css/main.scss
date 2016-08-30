@@ -2,6 +2,9 @@
 @import '_variables.scss';
 @import '../../node_modules/skeleton-scss/scss/skeleton.scss';
 
+$bp-smaller-than-phablet    : "max-width: 400px" !default;
+$bp-smaller-than-tablet    : "max-width: 550px" !default;
+
 body{
     font-size:18px;
     line-height:24px;
@@ -13,10 +16,12 @@ header, footer{
 footer{
     height:40px;
 }
+
 .content{
     border-top:12px solid $red;
     border-bottom:12px solid $red;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 #main-menu{
     height: 5rem;
@@ -42,10 +47,10 @@ footer{
                 border-top: 3px solid transparent;
                 line-height: 50px; 
                 height: 50px;
-                color:$black !important;
+                color:$black;
                 text-decoration:none;
                 &:hover{
-                    color:$dark-blue !important;
+                    color:$dark-blue;
                     border-color:$dark-blue;
                 }
             }
@@ -63,13 +68,15 @@ footer{
 }
 
 h1,h2,h3,h4,h5,h6{
-    line-height:1em !important;
+    line-height:1em;
     color:$black;
 }
 a{
     color:$dark-blue;
+    text-decoration:none;
     &:hover{
         color:$red;
+        text-decoration:underline;
     }
 }
 h1{
@@ -82,24 +89,26 @@ h2{
 }
 h3{
     font-size:20px;
+    font-weight: 400;
     font-family:'Oswald', Arial, Helvetica, sans-serif;
 }
 h4{
     font-size:20px;
     font-family:'Oswald', Arial, Helvetica, sans-serif;
 }
+h5,h6{
+    font-family:'Oswald', Arial, Helvetica, sans-serif;    
+}
+
 .speakers{
     .speaker{
         margin:1em 0;
-        padding:0 1em;
+        padding:1.5em 1.5em 0.5em 1.5em;
         border:2px solid $medium-blue;
     }
 }
 
 .schedule{
-    h1{
-        line-height:1em;
-    }
     .timeslot{
         &>h1{
             background-color:$red;
@@ -109,7 +118,7 @@ h4{
         }
         .scheduleSession{
             margin:1em 0;
-            padding:0 1em;
+            padding:1.5em 1.5em 0.5em 1.5em;
             border:2px solid $medium-blue;
         }
     }
@@ -125,4 +134,15 @@ h4{
 .main-block{
     padding:10px;
     margin-bottom: 20px;
+}
+
+
+@media ($bp-smaller-than-tablet)
+{
+    .hide-small{
+        display:none;
+    }
+    h1,h2,h3,h4,h5,h6{
+        line-height:1.3em;
+    }
 }
