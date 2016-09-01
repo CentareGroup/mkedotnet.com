@@ -2,11 +2,13 @@
 The website for mkedotnet.com
 
 ## How the puzzle pieces fit together
+This repo is the source for the www.mkedotnet.com website. 
+
 The site is built with HarpJs. Content is stored as json, markdown, and jade files...and then HarpJs is used to compile the source files into static html files.
 
 Once you compile the source to .html files, and commit to master, the site will be automatically deployed.
 
-The site is currently hosted on Netlify, at mkedotnet.netlify.com. Netlify watches the github repo for changes, and deploys within minutes.
+The site is currently hosted on Github Pages. Github Pages watches the repository for changes in the docs folder. When it sees them, it automatically deploys that folder to the www.mkedotnet.com website, within minutes.
 
 ## Setting up your local development environment
 You will need nodeJs installed locally.
@@ -28,5 +30,5 @@ To run the site locally, run `harp server _src --port 9876` (or whichever port y
 ## Compiling & deploying
 Once things look good locally, you can deploy with two steps.
 
-1. Compile the site with `harp compile _src www`. This will generate static html files in the www folder.
+1. Compile the site with `harp compile _src docs`. This will generate static html files in the docs folder.
 2. Commit and push your changes to Github. Your changes will be deployed in minutes.
