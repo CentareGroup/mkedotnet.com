@@ -3,8 +3,8 @@
         "speaker": "andrew-bloechl",
         "name": "Building SaaS Products in the Cloud",
         "description": "Building a SaaS product in the cloud is more complicated than choosing a hosting platform.  IaaS or PaaS?  What are my data storage choices?   How do I implement logging across resources?  How do I secure my environments?  Which monitoring tools should I use?  Should I cache?  What are my options for authentication?  What are Blobs and Queues?  This session will discuss one team’s journey down the Azure path; separating the good choices from the bad.",
-        "timeslot": "11:00 - 12:00",
-        "room":"Ballroom 2",
+        "timeslot": "2:30 - 3:30",
+        "room":"Ballroom 3",
         "title": "Building SaaS Products in the Cloud | Sessions | MKE DOT NET",
         "metaDescription":"Description for Building SaaS Products in the Cloud"
     }
