@@ -25,10 +25,12 @@ The scss of the app is driven off of skeleton-scss, which is installed via npm. 
 `npm install` 
 
 ## Running a local instance
-To run the site locally, run `harp server _src --port 9876` (or whichever port you prefer)
+To run the site locally, run `harp server _src --port 9876` (or whichever port you prefer).
+
+If you prefer, and you are happy with that port number, `npm start` will run the previous command.  
 
 ## Compiling & deploying
 Once things look good locally, you can deploy with two steps.
 
-1. Compile the site with `harp compile _src docs`. This will generate static html files in the docs folder.
+1. Compile the site with either `harp compile _src docs` or `npm run build`. This will generate static html files in the docs folder.
 2. Commit and push your changes to Github. Your changes will be deployed in minutes.

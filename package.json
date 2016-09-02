@@ -4,7 +4,9 @@
   "description": "MKEDOTNET.com website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "harp server _src --port 9876",
+    "build": "harp compile _src docs"
   },
   "author": "",
   "license": "ISC",

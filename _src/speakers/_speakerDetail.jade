@@ -1,7 +1,7 @@
 article.speaker
     h1 #{name}
     div.row
-        div.nine.columns
+        div.nine.columns.bio
             if twitter
                 h3 
                     a(href='https://twitter.com/#{twitter}') #{twitter}
@@ -11,7 +11,7 @@ article.speaker
             p
                 != bio
         div.three.columns.profile
-            img(src='#{slug}.jpg')
+            img(src='#{current.path[1]}.jpg')
     
     if sessions && sessions.length > 0
         hr

@@ -77,7 +77,12 @@ h5,h6{
         padding-top: 40px;
     }
     .hero-copy{
-        padding-top: 20px;
+        padding-top: 2rem;
+    }
+}
+@media ($bp-smaller-than-tablet){
+    .hero .hero-copy{
+        padding-top:6rem;
     }
 }
 
@@ -93,6 +98,17 @@ h5,h6{
     width: 100%;
     max-width:250px;
 }
+@media (max-width:$bp-large-nav-starts-at){
+    .bio.nine.columns{
+        width:100%;
+    }
+    .profile.three.columns{
+        width:100%;
+        margin-left: 0;
+        margin-bottom: 2.5rem;
+    }
+}
+
 .schedule{
     .timeslot{
         &>h1{
@@ -112,13 +128,22 @@ h5,h6{
 .center{
     text-align: center;
 }
-.highlight{
-    color: $red;
-    font-weight:bold;
-}
 .main-block{
     padding:10px;
     margin-bottom: 20px;
+    b{
+        color: $red;
+    }
+    h5{
+        font-size:1.2em;
+        font-weight:medium;
+        text-transform: uppercase;
+        font-family: $font-family;
+        margin-bottom: 2.5rem;
+    }
+    a{
+        text-decoration: underline;
+    }
 }
 
 // grid-column-width(12);
