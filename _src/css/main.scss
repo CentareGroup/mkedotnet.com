@@ -89,6 +89,10 @@ h5,h6{
     }
 }
 
+.profile img{
+    width: 100%;
+    max-width:250px;
+}
 .schedule{
     .timeslot{
         &>h1{

@@ -1,13 +1,17 @@
 article.speaker
     h1 #{name}
-    if twitter
-        h3 
-            a(href='https://twitter.com/#{twitter}') #{twitter}
-    if blog
-        h3
-            a(href='http://#{blog}') #{blog}
-    p
-        != bio
+    div.row
+        div.nine.columns
+            if twitter
+                h3 
+                    a(href='https://twitter.com/#{twitter}') #{twitter}
+            if blog
+                h3
+                    a(href='http://#{blog}') #{blog}
+            p
+                != bio
+        div.three.columns.profile
+            img(src='#{slug}.jpg')
     
     if sessions && sessions.length > 0
         hr
@@ -18,4 +22,3 @@ article.speaker
                     a(href='/sessions/#{session}') #{public.sessions[session]._data.index.name}
                 h4 #{public.sessions[session]._data.index.room}
                 h4 #{public.sessions[session]._data.index.timeslot}
-    

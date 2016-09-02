@@ -1,9 +1,12 @@
 article.speaker
     h1
         a(href='/speakers/#{slug}') #{speaker.name}
-    div.hide-small
-        p
-            != speaker.bio
+    div.row.hide-small
+        div.nine.columns
+            p
+                != speaker.bio
+        div.three.columns.profile
+            img(src='/speakers/#{slug}/#{slug}.jpg')
         hr
     h3 Sessions
     for session in speaker.sessions 
