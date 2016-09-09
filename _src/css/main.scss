@@ -2,10 +2,12 @@
 @import '_variables.scss';
 @import '../../node_modules/skeleton-scss/scss/skeleton.scss';
 
-$bp-smaller-than-phablet    : "max-width: 400px" !default;
-$bp-smaller-than-tablet    : "max-width: 550px" !default;
-$bp-large-nav-starts-at : "900px";
-$bp-medium-nav-starts-at : "460px"; 
+$bp-smaller-than-phablet: "max-width: 400px" !default;
+$bp-smaller-than-tablet: "max-width: 550px" !default;
+$bp-smaller-than-desktop: "max-width: 750px" !default;
+$bp-smaller-than-desktophd: "max-width: 1000px" !default;
+$bp-large-nav-starts-at: "900px";
+$bp-medium-nav-starts-at: "460px"; 
 
 html{
     min-height: 100%;
@@ -32,11 +34,17 @@ h1,h2,h3,h4,h5,h6{
     line-height:1em;
     color:$black;
 }
+
 a{
     color:$dark-blue;
     text-decoration:none;
     &:hover{
         color:$red;
+        text-decoration:underline;
+    }
+}
+@media ($bp-smaller-than-desktophd){
+    a{
         text-decoration:underline;
     }
 }
