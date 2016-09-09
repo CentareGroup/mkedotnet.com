@@ -11,9 +11,14 @@ Once you compile the source to .html files, and commit to master, the site will 
 The site is currently hosted on Github Pages. Github Pages watches the repository for changes in the docs folder. When it sees them, it automatically deploys that folder to the www.mkedotnet.com website, within minutes.
 
 ## Setting up your local development environment
-You will need nodeJs installed locally.
+### NodeJs
+You will need version 4.5.0 (or possibly earlier) of nodeJs installed locally.
+At some point in the v6 range, nodeJs made a change that broke the node-sass package upon which HarpJs depends. 
+The node-sass package has since been fixed, but HarpJs is still relying on an older (broken) version.
+If you have version 6.x of nodeJs installed, you are not out of luck - you can use [nvm](https://github.com/creationix/nvm) (on a Mac/Linux), or [nvm-windows](https://github.com/coreybutler/nvm-windows) (on Windows), to run multiple versions of node on your machine.
+If you do end up installing a nodeJs version manager, switch to nodeJs version 4.5.0.
 
-You will then need to install HarpJs locally. 
+You will then need to install HarpJs globally. 
 
 `npm install -g harp`
 
