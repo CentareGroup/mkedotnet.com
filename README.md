@@ -18,6 +18,7 @@ The node-sass package has since been fixed, but HarpJs is still relying on an ol
 If you have version 6.x of nodeJs installed, you are not out of luck - you can use [nvm](https://github.com/creationix/nvm) (on a Mac/Linux), or [nvm-windows](https://github.com/coreybutler/nvm-windows) (on Windows), to run multiple versions of node on your machine.
 If you do end up installing a nodeJs version manager, switch to nodeJs version 4.5.0.
 
+### HarpJs
 You will then need to install HarpJs globally. 
 
 `npm install -g harp`
