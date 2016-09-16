@@ -133,6 +133,34 @@ h5,h6{
     }
 }
 
+.sponsors{
+    img{
+        vertical-align: middle;
+    }
+    .platinum img{
+        max-width:100%;
+    }
+    .silver{
+        text-align: center;
+        img{
+            max-width:25%;
+            margin: 0.5em;
+            @media (max-width:$bp-large-nav-starts-at){
+                max-width:65%;
+            }        
+        }
+    }
+    .bronze{
+        text-align: center;
+        img{
+            max-width:15%;
+            margin: 0.5em;
+            @media (max-width:$bp-large-nav-starts-at){
+                max-width:30%;
+            }        
+        }
+    }
+}
 .center{
     text-align: center;
 }
@@ -180,7 +208,7 @@ h5,h6{
         list-style:none;
         >li{
             float: left;
-            margin-right:45px;
+            margin-right:30px;
             font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
             &:last-child{
                 margin-right:0;
@@ -217,7 +245,7 @@ h5,h6{
             list-style:none;
             >li{
                 float: left;
-                margin-right:45px;
+                margin-right:22px;
                 font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
                 >a{
                     display:block;
@@ -244,14 +272,16 @@ h5,h6{
             float:none;
             margin-left: auto;
             margin-right: auto;
-            a{
-            }
         }
         >ul{
             width: 100%;
             >li{
                 width:100%;
                 text-align:center;
+                >a{
+                    line-height: 40px; 
+                    height: 40px;
+                }
             }
         }
     }
