@@ -136,6 +136,7 @@ h5,h6{
 .sponsors{
     img{
         vertical-align: middle;
+        padding:0 10px;
     }
     .platinum img{
         max-width:100%;
@@ -146,7 +147,7 @@ h5,h6{
             max-width:25%;
             margin: 0.5em;
             @media (max-width:$bp-large-nav-starts-at){
-                max-width:65%;
+                max-width:55%;
             }        
         }
     }
