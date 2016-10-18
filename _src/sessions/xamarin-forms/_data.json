@@ -1,11 +1,11 @@
 {
-    "index":{
+    "index": {
         "speaker": "matthew-soucoup",
         "name": "Deep into The Woods with Xamarin Forms",
-        "description": "The beaten path of developing with Xamarin.Forms is well marked, but can be a bit narrow. As soon as you need to leave it to perform something out of the ordinary you can find yourself lost deep in the woods, far away from home with night falling quickly and a heavy fog settling in. This session will be your map to get out of the woods and back home by exploring the more advanced topics in Xamarin Forms. Need a UI element that Forms does not provide? There’s a route to create one with custom renderers that even provide cross platform data binding - or if that's too much, we can employ an effect - or embed the control inline! Need to access the deep internals of each OS? The dependency service has a compass but find out when it may get you more lost, and some ways out. Wouldn’t it be nice to bind a command to any UI event? Or be able to perform view model first navigation? What about printing? You can do them all! At the end of this session, you’ll never get lost in the Xamarin.Forms forest again!",
+        "description": "The beaten path of developing with Xamarin.Forms is well marked, but can be a bit narrow. As soon as you need to leave it to perform something out of the ordinary you can find yourself lost deep in the woods, far away from home with night falling quickly and a heavy fog settling in. This session will be your map to get out of the woods and back home quickly by exploring the more advanced topics in Xamarin Forms. Learn the techniques to boost the performance of your app to get out of the woods fast. Find some of the forgotten tools that Forms already provides and how to combine them together to create a super tool that can bind a command to any control’s event! Finally, we’ll customize the UI without having to resort to creating a renderer. At the end of this session, you’ll never get lost in the Xamarin.Forms forest again!",
         "timeslot": "2:30 - 3:30",
-        "room":"Ballroom 2",
+        "room": "Ballroom 2",
         "title": "Deep into The Woods with Xamarin Forms | Sessions | MKE DOT NET",
-        "metaDescription":"Deep into The Woods with Xamarin Forms"
+        "metaDescription": "Deep into The Woods with Xamarin Forms"
     }
 }

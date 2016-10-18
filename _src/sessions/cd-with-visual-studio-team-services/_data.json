@@ -1,11 +1,11 @@
 {
-    "index":{
+    "index": {
         "speaker": "dan-gartner",
         "name": "Zero to Continuous Delivery in an Hour with Visual Studio Team Services ",
         "description": "This demo-paced session will walk attendees through the end-to-end process of creating a Continuous Delivery pipeline using Visual Studio Team Services (VSTS). We will check code into a git repo, create an automated build that compiles our code and runs our unit tests, and create a release pipeline to promote the application and run automated smoke tests through a series of Azure environments using VSTS. And we will do all of this in an hour.",
-        "timeslot": "2:30 - 3:30",
-        "room":"Ballroom 1",
+        "timeslot": "3:45 - 4:45",
+        "room": "Woodfield",
         "title": "Zero to Continuous Delivery in an Hour with Visual Studio Team Services  | Sessions | MKE DOT NET",
-        "metaDescription":"Zero to Continuous Delivery in an Hour with Visual Studio Team Services "
+        "metaDescription": "Zero to Continuous Delivery in an Hour with Visual Studio Team Services "
     }
 }
