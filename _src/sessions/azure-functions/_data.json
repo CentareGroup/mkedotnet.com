@@ -1,11 +1,11 @@
 {
-    "index":{
+    "index": {
         "speaker": "samrat-saha",
         "name": "Rapid prototyping using Azure Functions - A Walk on the Wild Side",
         "description": "<p>A main focus of mine has been leveraging the Azure platform to help clients explore the possibilities that cloud computing can afford them. Azure has been a great experience and showcases how Microsoft has evolved and matured into a much more open company willing to experiment, fail and succeed with developers and partners.</p><p>This presentation is based on my real world experience of developing with Azure functions to create a prototype for a client that will be entering a pilot launch in select markets.</p><p>A client of ours wanted us to prototype a solution that incorporated SMS using Twilio and NLP using IBM's Watson platform. Furthermore they wanted it to be scalable from the get go. Our initial approach was to use AWS Lambda's but given that our client is heavily into Azure, Azure functions seemed like a natural fit.</p><p>On our way to create the prototype, I quickly discovered the ease with which I could incorporate extremely useful constructs like Queue's and event based triggers and also quickly discovered some of the tooling deficiencies and lack of deeper documentation that could have saved me time and fistful's of hair.</p><p>Along the process of developing the prototype, I engaged heavily with some of the developers at Microsoft who were always willing to help out and also through painful experimentation discovered some techniques that allowed for the system to make sense.</p><p>I would love to share what I have learnt to allow developers to try out this feature of Azure (which I think has great potential for an on-demand scalable compute experience) and also learn from others experiences with the technology and platform. I will outline and describe some of the core technology like triggers, message queues, function chaining, stateless development, shared custom assemblies across functions along with CI/CD hooks  that I used to deliver on the prototype.</p><p>This was done using C# and .NET, but explicit knowledge of C# or .NET is not required, but experience with a higher level language/runtime would help.</p>",
         "timeslot": "3:45 - 4:45",
-        "room":"Ballroom 3",
+        "room": "Woodfield C/D",
         "title": "Rapid prototyping using Azure Functions - A Walk on the Wild Side | Sessions | MKE DOT NET",
-        "metaDescription":"Rapid prototyping using Azure Functions - A Walk on the Wild Side"
+        "metaDescription": "Rapid prototyping using Azure Functions - A Walk on the Wild Side"
     }
 }

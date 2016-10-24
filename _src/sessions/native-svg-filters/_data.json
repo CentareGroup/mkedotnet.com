@@ -1,11 +1,11 @@
 {
-    "index":{
+    "index": {
         "speaker": "ben-felda",
         "name": "Graphic Effects with Native SVG Filters",
         "description": "Add filters, blur, emboss, the gooey effect, and many other fun effects to html elements without plugins.  This course will provide a brief introduction to what is possible with svg filters, and a deeper dive into some of the more complex base components and how they tick.  After this course, you will think twice before jumping to an image editor.",
         "timeslot": "11:00 - 12:00",
-        "room":"Woodfield",
+        "room": "Woodfield C/D",
         "title": "Graphic Effects with Native SVG Filters | Sessions | MKE DOT NET",
-        "metaDescription":"Graphic Effects with Native SVG Filters"
+        "metaDescription": "Graphic Effects with Native SVG Filters"
     }
 }

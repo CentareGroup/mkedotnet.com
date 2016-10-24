@@ -1,11 +1,11 @@
 {
-    "index":{
+    "index": {
         "speaker": "david-pine",
         "name": "Building a “Magic Mirror”",
         "description": "Have you ever heard of a “magic mirror”? And no, I’m not talking about Snow White. I’m talking about a real-world mirror, with smarts… Lend me 60 minutes of your time and I’ll walk you through my experiences of developing my magic mirror. It’s running Windows 10 IoT Core, on a Raspberry Pi 3. It was written in C# as a Universal Windows Platform (UWP) application. My magic mirror boasts facial recognition and the Microsoft Cognitive Services (Emotion APIs), plays music, updates with current local weather and forecasts, displays a clock, and your upcoming aggregated calendar events.",
         "timeslot": "1:15 - 2:15",
-        "room":"Woodfield",
+        "room": "Woodfield C/D",
         "title": "Building a “Magic Mirror” | Sessions | MKE DOT NET",
-        "metaDescription":"Building a “Magic Mirror”"
+        "metaDescription": "Building a “Magic Mirror”"
     }
 }

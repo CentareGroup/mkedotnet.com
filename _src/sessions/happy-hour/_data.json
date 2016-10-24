@@ -1,10 +1,10 @@
 {
     "index": {
         "speaker": null,
-        "name": "Happy Hour & Closing",
+        "name": "Happy Hour",
         "description": "Join us for happy hour!",
         "timeslot": "4:45 - 6:00",
-        "room": "Grand Salon",
+        "room": "Atrium",
         "title": "Happy Hour & Closing | Sessions | MKE DOT NET",
         "metaDescription": "Happy Hour & Closing"
     }
