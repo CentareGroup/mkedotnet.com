@@ -19,7 +19,7 @@ body{
 }
 header, footer{
     overflow:auto;
-    background-color: $light-blue;
+    background-color: $black;
 }
 footer{
     height:40px;
@@ -38,6 +38,10 @@ footer{
 
     .shade {
         display: block;
+    }
+
+    #main-menu > ul > li > a {
+        color: $white;
     }
 }
 
@@ -104,15 +108,20 @@ h5,h6{
     .hero-presented{
         padding-top: 40px;
     }
+
     .hero-copy{
         padding-top: 2rem;
         color: $white;
         position:relative;
     }
-}
-@media ($bp-smaller-than-tablet){
-    .hero .hero-copy{
-        padding-top:6rem;
+
+    @media(max-width:$bp-large-nav-starts-at) {
+        .hero-copy {
+            width: 100%;
+        }
+        .hero-logo {
+            display: none;
+        }
     }
 }
 
@@ -249,10 +258,10 @@ h5,h6{
     #wordmark{
         margin:0;
         text-indent: -9999px;
-        background: transparent url('/images/MKE_DOT_NET_name.png') center center no-repeat;
-        background-size: 100%;
+        background: transparent url('/images/MKEDOTNET_logo_rectangle.png') center center no-repeat;
+        background-size: contain;
         float:left;
-        width:300px;
+        width:170px;
         height:80px;
         >a{
             line-height: 80px;
@@ -279,7 +288,7 @@ h5,h6{
                 border-top: 3px solid transparent;
                 line-height: 50px; 
                 height: 50px;
-                color:$white;
+                color:$dark-blue;
                 text-decoration:none;
                 &:hover{
                     color:$orange;
@@ -313,7 +322,7 @@ h5,h6{
                     border-top: 3px solid transparent;
                     line-height: 50px; 
                     height: 50px;
-                    color:$white;
+                    color:$dark-blue;
                     text-decoration:none;
                     &:hover{
                         color:$orange;
