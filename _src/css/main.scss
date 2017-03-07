@@ -83,7 +83,7 @@ h4{
 h5,h6{
     font-family:'Oswald', Arial, Helvetica, sans-serif;    
 }
-.highlight-black {
+.text-blackbox {
     background-color: black;
     padding:5px;
 }
@@ -118,6 +118,7 @@ h5,h6{
     @media(max-width:$bp-large-nav-starts-at) {
         .hero-copy {
             width: 100%;
+            margin-left: 0;
         }
         .hero-logo {
             display: none;
@@ -132,7 +133,7 @@ h5,h6{
     right: 0;
     left: 50%;
     bottom: 0;
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0,0,0,.5);
 
     &+ * {
         z-index: 100;
@@ -237,7 +238,7 @@ h5,h6{
     padding:10px;
     margin-bottom: 20px;
     b{
-        color: $red;
+        color: $orange;
     }
     h5{
         font-size:1.2em;
@@ -258,7 +259,7 @@ h5,h6{
     #wordmark{
         margin:0;
         text-indent: -9999px;
-        background: transparent url('/images/MKEDOTNET_logo_rectangle.png') center center no-repeat;
+        background: transparent url('/images/MKEDOTNET_logo_rectangle.svg') center center no-repeat;
         background-size: contain;
         float:left;
         width:170px;
