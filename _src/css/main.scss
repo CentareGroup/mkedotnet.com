@@ -26,8 +26,19 @@ footer{
     position:absolute;
     bottom:0;
     left: 0;
-    border-top:12px solid $red;
+    border-top:12px solid $orange;
     right: 0;
+}
+.header-main {
+    position: relative;
+    overflow: hidden;
+
+    background: url(/images/brick_repeatable-min.jpg) no-repeat center center; 
+    background-size: cover;
+
+    .shade {
+        display: block;
+    }
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -39,7 +50,7 @@ a{
     color:$dark-blue;
     text-decoration:none;
     &:hover{
-        color:$red;
+        color:$orange;
         text-decoration:underline;
     }
 }
@@ -68,12 +79,21 @@ h4{
 h5,h6{
     font-family:'Oswald', Arial, Helvetica, sans-serif;    
 }
-
+.highlight-black {
+    background-color: black;
+    padding:5px;
+}
+.text-white {
+    color: $white;
+}
+.text-orange {
+    color: $orange;
+}
 .button.button-primary{
     font-size:1.5rem;
 }
 .content{
-    border-top:12px solid $red;
+    border-top:12px solid $orange;
     padding-top: 60px;
     padding-bottom: 60px;
     margin-bottom: 52px; //height of footer;
@@ -86,12 +106,45 @@ h5,h6{
     }
     .hero-copy{
         padding-top: 2rem;
+        color: $white;
+        position:relative;
     }
 }
 @media ($bp-smaller-than-tablet){
     .hero .hero-copy{
         padding-top:6rem;
     }
+}
+
+.shade {
+    display: none;
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 50%;
+    bottom: 0;
+    background-color: rgba(0,0,0,.4);
+
+    &+ * {
+        z-index: 100;
+    }
+
+    @media (max-width:$bp-large-nav-starts-at) {
+        left: 0;
+    }
+}
+.graffiti {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    width: 500px;
+    height: 500px;
+    background-image: url('/images/MKEDOTNET_logo_WHT.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    transform: rotate(-35deg);
+    opacity: 0.3;
 }
 
 .speakers{
@@ -120,7 +173,7 @@ h5,h6{
 .schedule{
     .timeslot{
         &>h1{
-            background-color:$red;
+            background-color:$orange;
             color:white;
             padding: 0.5em;
             margin:0;
@@ -226,11 +279,11 @@ h5,h6{
                 border-top: 3px solid transparent;
                 line-height: 50px; 
                 height: 50px;
-                color:$black;
+                color:$white;
                 text-decoration:none;
                 &:hover{
-                    color:$dark-blue;
-                    border-color:$dark-blue;
+                    color:$orange;
+                    border-color:$orange;
                 }
             }
         }
@@ -260,11 +313,11 @@ h5,h6{
                     border-top: 3px solid transparent;
                     line-height: 50px; 
                     height: 50px;
-                    color:$black;
+                    color:$white;
                     text-decoration:none;
                     &:hover{
-                        color:$dark-blue;
-                        border-color:$dark-blue;
+                        color:$orange;
+                        border-color:$orange;
                     }
                 }
             }
