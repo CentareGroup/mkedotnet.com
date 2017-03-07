@@ -258,9 +258,11 @@ h5,h6{
 
     #wordmark{
         margin:0;
+        padding: 5px;
         text-indent: -9999px;
         background: transparent url('/images/MKEDOTNET_logo_rectangle.svg') center center no-repeat;
         background-size: contain;
+        background-origin: content-box;
         float:left;
         width:170px;
         height:80px;
