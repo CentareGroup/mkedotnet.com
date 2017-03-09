@@ -45,7 +45,8 @@
 </head>
 
 <body>
-	<header>
+	<header <%if (pageType === "main") { %> class="header-main" <% } %>>
+		<div class="shade"></div>
 		<div class="container">
 			<%- partial("partials/_nav") %>
 			<%if (pageType === "main") { %>

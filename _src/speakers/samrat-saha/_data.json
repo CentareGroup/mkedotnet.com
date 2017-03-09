@@ -1,9 +1,0 @@
-{
-    "index":{
-        "name": "Samrat Saha",
-        "sessions": ["azure-functions"],
-        "bio": "<p>A technology enthusiast, I lead the development efforts at Laughlin Constable in Milwaukee, managing talented .NET,Open Source and Front-end dev teams. I work with both custom software and hardware and especially enjoy the zone where the distinction between the two blur and only user experience matters. Being a polyglot, I enjoy multiple platforms and languages (.NET, Java, Mobile, Python).</p><p>Be it custom BLE development for ad-hoc networked devices to using NLP to create speech based UI's to leveraging the Watson platform, I like to get my hands dirty and often spend countless hours alternating between pure frustration and unadulterated joy when something finally works.</p><p>I enjoy learning from people and when opportunity permits, to share what I have learnt with a wider audience.</p>",
-        "title": "Samrat Saha | Speakers | MKE DOT NET",
-        "metaDescription":"Speaker Bio for Samrat Saha"
-    }
-}
