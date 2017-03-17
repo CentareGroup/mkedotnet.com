@@ -7,7 +7,7 @@ $bp-smaller-than-tablet: "max-width: 550px" !default;
 $bp-smaller-than-desktop: "max-width: 750px" !default;
 $bp-smaller-than-desktophd: "max-width: 1000px" !default;
 $bp-large-nav-starts-at: "900px";
-$bp-medium-nav-starts-at: "460px"; 
+$bp-medium-nav-starts-at: "460px";
 
 html{
     min-height: 100%;
@@ -33,7 +33,7 @@ footer{
     position: relative;
     overflow: hidden;
 
-    background: url(/images/brick_repeatable-min.jpg) no-repeat center center; 
+    background: url(/images/brick_repeatable-min.jpg) no-repeat center center;
     background-size: cover;
 
     .shade {
@@ -81,7 +81,7 @@ h4{
     font-family:'Oswald', Arial, Helvetica, sans-serif;
 }
 h5,h6{
-    font-family:'Oswald', Arial, Helvetica, sans-serif;    
+    font-family:'Oswald', Arial, Helvetica, sans-serif;
 }
 .text-blackbox {
     background-color: black;
@@ -217,7 +217,7 @@ h5,h6{
             margin: 0.5em;
             @media (max-width:$bp-large-nav-starts-at){
                 max-width:55%;
-            }        
+            }
         }
     }
     .bronze{
@@ -227,7 +227,7 @@ h5,h6{
             margin: 0.5em;
             @media (max-width:$bp-large-nav-starts-at){
                 max-width:30%;
-            }        
+            }
         }
     }
 }
@@ -240,12 +240,13 @@ h5,h6{
     b{
         color: $orange;
     }
-    h5{
-        font-size:1.2em;
-        font-weight:medium;
-        text-transform: uppercase;
-        font-family: $font-family;
+    h2{
+        font-size:30px;
+        background-color: $orange;
+        color: $white;
         margin-bottom: 2.5rem;
+        text-align: center;
+        padding: 5px;
     }
     a{
         text-decoration: underline;
@@ -289,7 +290,7 @@ h5,h6{
                 display:block;
                 width:auto;
                 border-top: 3px solid transparent;
-                line-height: 50px; 
+                line-height: 50px;
                 height: 50px;
                 color:$dark-blue;
                 text-decoration:none;
@@ -323,7 +324,7 @@ h5,h6{
                     display:block;
                     width:auto;
                     border-top: 3px solid transparent;
-                    line-height: 50px; 
+                    line-height: 50px;
                     height: 50px;
                     color:$dark-blue;
                     text-decoration:none;
@@ -333,7 +334,7 @@ h5,h6{
                     }
                 }
             }
-        }        
+        }
     }
 }
 @media (max-width:$bp-medium-nav-starts-at){
@@ -351,7 +352,7 @@ h5,h6{
                 width:100%;
                 text-align:center;
                 >a{
-                    line-height: 40px; 
+                    line-height: 40px;
                     height: 40px;
                 }
             }
@@ -360,7 +361,7 @@ h5,h6{
 }
 @media (min-width:$bp-medium-nav-starts-at) and (max-width:$bp-large-nav-starts-at){
     #main-menu{
-        width: 100%; 
+        width: 100%;
         margin-left: 0;
         text-align:center;
         height:auto;
@@ -380,7 +381,7 @@ h5,h6{
                     display:inline-block;
                 }
             }
-        }   
+        }
     }
 }
 
