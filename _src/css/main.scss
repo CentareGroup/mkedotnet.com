@@ -152,9 +152,28 @@ h5,h6{
     background-image: url('/images/MKEDOTNET_logo_WHT.svg');
     background-repeat: no-repeat;
     background-size:cover;
-
     transform: rotate(-35deg);
     opacity: 0.3;
+    z-index: -1;
+}
+.keynote {
+    clear: left;
+
+    .img-circle {
+        height: 150px;
+        width: 150px;
+        background-image: url('/images/maria-naggaga.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        border: 5px solid $black;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        margin-right: 40px;
+        margin-left: 10px;
+        float: left;
+    }
 }
 
 .speakers{
