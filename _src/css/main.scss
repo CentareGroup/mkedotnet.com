@@ -39,10 +39,10 @@ footer{
     .shade {
         display: block;
     }
+}
 
-    #main-menu > ul > li > a {
-        color: $white;
-    }
+#main-menu > ul > li > a {
+    color: $white;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -249,6 +249,15 @@ h5,h6{
             }
         }
     }
+    .products{
+        text-align:center;
+        img{
+            width:20%;
+            @media (max-width:$bp-large-nav-starts-at){
+                width:40%;
+            }
+        }
+    }
 }
 .center{
     text-align: center;
@@ -311,7 +320,6 @@ h5,h6{
                 border-top: 3px solid transparent;
                 line-height: 50px;
                 height: 50px;
-                color:$dark-blue;
                 text-decoration:none;
                 &:hover{
                     color:$orange;
@@ -345,7 +353,6 @@ h5,h6{
                     border-top: 3px solid transparent;
                     line-height: 50px;
                     height: 50px;
-                    color:$dark-blue;
                     text-decoration:none;
                     &:hover{
                         color:$orange;
