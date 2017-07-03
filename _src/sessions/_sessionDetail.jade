@@ -1,10 +1,11 @@
 article.session
     h1 #{name}
-    if speaker && public.speakers[speaker]
-        h2
-            a(href='/speakers/#{speaker}') #{public.speakers[speaker]._data.index.name}
+    if speaker
+        != partial("../_speakerLink", { speaker: speaker })
+    if speakers
+        for speaker in speakers
+            != partial("../_speakerLink", {speaker: speaker})
     h3 #{room}
     h3 #{timeslot}
     p
         != description
-    

@@ -3,20 +3,20 @@ article.speaker
     div.row
         div.nine.columns.bio
             if twitter
-                h3 
-                    a(href='https://twitter.com/#{twitter}') #{twitter}
+                h3
+                    a(href='https://twitter.com/#{twitter}') @#{twitter}
             if blog
                 h3
                     a(href='http://#{blog}') #{blog}
             p
                 != bio
         div.three.columns.profile
-            img(src='#{current.path[1]}.jpg')
-    
+            //- img(src='#{current.path[1]}.jpg')
+
     if sessions && sessions.length > 0
         hr
         h2 Sessions
-        for session in sessions 
+        for session in sessions
             if public.sessions[session]
                 h3
                     a(href='/sessions/#{session}') #{public.sessions[session]._data.index.name}

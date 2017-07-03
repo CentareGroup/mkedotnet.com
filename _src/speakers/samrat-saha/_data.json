@@ -1,0 +1,10 @@
+{
+    "index":{
+        "name": "Samrat Saha",
+        "sessions": ["azure-machine-learning-studio"],
+        "bio": "<p>I love all things technology and I am always interested in learning about new technologies, as well as new ways of using existing ones.I am looking forward to connecting with people and share ideas, so please feel free to reach out and we can get a conversation started.</p><p>My current areas of work, includes helping clients migrate workloads onto cloud platforms like Microsoft Azure and AWS, researching/implementing processing pipelines to deliver scalable solutions (like using message queues, Azure functions/AWS Lambdas) and integrating hardware to create an ecosystem of platforms and devices to create a frictionless experience for end-users.</p><p>As the VP of Engineering at Laughlin Constable, I lead multiple teams of developers focussing on custom .NET, Java, PHP, Python development. I help teams grow in leveraging multi paradigm approaches (public/private cloud, NoSQL solutions, ML techniques), with the focus on using the right approach for a problem.</p><p>My ability of weaving the virtues of scotch with those on unit testing…has proven to be entertaining at times. All the more reason to show up and hear me wax poetic on computing!</p>",
+        "blog":"www.linkedin.com/in/samsaha1",
+        "title": "Samrat Saha | Speakers | MKE DOT NET 2017",
+        "metaDescription":"Speaker Bio for Samrat Saha"
+    }
+}

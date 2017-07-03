@@ -1,0 +1,11 @@
+{
+    "index":{
+        "name": "Matthew Soucoup",
+        "sessions": ["xamarin-forms"],
+        "bio": "<p>Matthew Soucoup is a Microsoft and Xamarin MVP, a Pluralsight author, a Telerik Dev Expert, and a principal at Code Mill Technologies. Matt loves mobile development. For his job, he creates elegant cross-platform apps. For fun, Matt shares his passion and insight on mobile and cloud development by blogging, writing articles, and presenting at conferences such as Xamarin Evolve, CodeMash, That Conference, and Indy.Code(). When not behind a computer screen, Matt gardens hot peppers, rides bikes, and loves Wisconsin micro-brews and cheese. Follow Matt on Twitter at @codemillmatt and his blog at https://codemilltech.com.</p>",
+        "blog":"codemilltech.com",
+        "twitter":"codemillmatt",
+        "title": "Matthew Soucoup | Speakers | MKE DOT NET 2017",
+        "metaDescription":"Speaker Bio for Matthew Soucoup"
+    }
+}

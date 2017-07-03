@@ -1,0 +1,11 @@
+{
+    "index":{
+        "name": "Dustin Ewers",
+        "sessions": ["data-visualizations-in-nvd3-and-d3"],
+        "bio": "<p>Dustin Ewers is a consultant at Centare, where he works to help businesses build better software. Dustin has been building software for over 10 years, specializing in Microsoft technologies. He is an active member of the technical community, speaking at user groups and conferences in and around Wisconsin.</p><p>While not building the software of the future, Dustin likes a mix of low tech and high tech hobbies, including reading, cooking, hiking, and fishing.</p><p>He writes about technology at https://www.dustinewers.com/. Follow him on Twitter at @DustinJEwers</p>",
+        "blog":"www.dustinewers.com",
+        "twitter":"dustinjewers",
+        "title": "Dustin Ewers | Speakers | MKE DOT NET 2017",
+        "metaDescription":"Speaker Bio for Dustin Ewers"
+    }
+}

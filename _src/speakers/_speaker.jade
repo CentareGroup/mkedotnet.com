@@ -5,12 +5,12 @@ article.speaker
         div.nine.columns.bio
             p
                 != speaker.bio
-        div.three.columns.profile
-            img(src='/speakers/#{slug}/#{slug}.jpg')
-        hr
-    h3 Sessions
-    for session in speaker.sessions 
-        if public.sessions[session]
-            h4
-                a(href='/sessions/#{session}') #{public.sessions[session]._data.index.name}
-    
+        //- div.three.columns.profile
+            //- img(src='/speakers/#{slug}/#{slug}.jpg')
+        //- hr
+    if speaker.sessions && speaker.sessions.length > 0
+        h3 Sessions
+        for session in speaker.sessions
+            if public.sessions[session]
+                h4
+                    a(href='/sessions/#{session}') #{public.sessions[session]._data.index.name}
