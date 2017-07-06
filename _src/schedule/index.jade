@@ -1,9 +1,9 @@
--function getSessionsForTimeslot(timeslot){
+-function getSessionsForTimeslot(timeslotIndex){
 -    return _.sortBy(_.filter(Object.keys(public.sessions).map(function(key) {
 -            return _.assign(public.sessions[key]._data.index, {key: key});
--        }), function(item){ 
--            return item.timeslot == timeslot
--        }), 'room'); 
+-        }), function(item){
+-            return item.timeslot == timeslotIndex
+-        }), 'room');
 -}
 h1 Schedule
 
@@ -14,6 +14,6 @@ div.schedule
         != partial("_timeslot")
         article.timeslot
             h1 #{timeslot.name} (#{timeslot.time})
-            
-            for session in getSessionsForTimeslot(timeslot.time)
+
+            for session in getSessionsForTimeslot(timeslot.timeslotIndex)
                 != partial("_scheduleSession", { session: session })

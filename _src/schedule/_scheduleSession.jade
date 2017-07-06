@@ -1,11 +1,12 @@
 article.scheduleSession
     h1
         a(href='/sessions/#{session.key}') #{session.name}
-    if session.speaker && public.speakers[session.speaker]
-        h2
-            a(href='/speakers/#{session.speaker}') #{public.speakers[session.speaker]._data.index.name}
-    h3 #{session.room} 
+    if session.speaker
+        != partial("_sessionSpeaker", {speaker: session.speaker})
+    if session.speakers
+        for speaker in session.speakers
+            != partial("_sessionSpeaker", {speaker: speaker})
+    h3 #{session.room}
     div.hide-small
         p
             != session.description
-    

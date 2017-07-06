@@ -3,7 +3,7 @@
         "speakers": ["brice-williams", "bob-hansen"],
         "name": "Hardening Your ASP.NET Core Applications",
         "description": "<p>With cyberattacks on the rise, every application can be a potential target. No longer do attacks only impact internet facing web applications, but now include enterprise intranet applications and systems that don’t handle sensitive or regulated data. ASP.NET Core provides a great foundation with which to build a secure application, but there are many things to still consider to ensure your systems are hardened against attacks.</p><p>This session discusses new security features available in ASP.NET Core to protect your application from prevalent attacks such as the OWASP Top 10, phishing, and ransomware. We will demonstrate attacks against modern applications and APIs built with ASP.NET Core, and show common mistakes made by developers.</p><p>We hope that you walk away from this discussion with a better understanding of how to protect your applications using the latest secure coding techniques.</p>",
-        "timeslot": "",
+        "timeslot": "1",
         "room": "",
         "title": "Hardening Your ASP.NET Core Applications | Sessions | MKE DOT NET 2017",
         "metaDescription": "Hardening Your ASP.NET Core Applications"

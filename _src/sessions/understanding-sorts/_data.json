@@ -3,7 +3,7 @@
         "speaker": "william-springer",
         "name": "That's not how you pack it! Understanding sorts.",
         "description": "<p>Why handle sorting yourself when your language or framework will do it for you? In most cases, the automatically-provided sort will work just fine, but metadata about the input may allow for a significant performance improvement.</p><p>In this talk, we’ll cover big-O notation (for those who either don’t have a computer science degree or have simply forgotten this part) and then move on to analyzing the asymptotic runtime of various sorting algorithms. We’ll see why mergesort works just fine the majority of the time, but how we can sometimes use a non-comparison sort to greatly boost performance.</p><p>No particular background is required.</p>",
-        "timeslot": "",
+        "timeslot": "6",
         "room": "",
         "title": "That's not how you pack it! Understanding sorts. | Sessions | MKE DOT NET 2017",
         "metaDescription": "That's not how you pack it! Understanding sorts."

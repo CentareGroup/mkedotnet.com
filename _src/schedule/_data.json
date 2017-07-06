@@ -1,43 +1,57 @@
 {
-    "index":{
+    "index": {
         "title": "Schedule | MKE DOT NET",
-        "metaDescription":"MKE DOT NET 2016 Schedule",
-        "timeSlots":[
+        "metaDescription": "MKE DOT NET 2016 Schedule",
+        "timeSlots": [
             {
-                "name":"Registration & Check In",
-                "time":"7:45 - 8:15"
+                "name": "Registration & Check In",
+                "time": "7:30 - 8:00",
+                "timeslotIndex": -1
             },
             {
-                "name":"Keynote",
-                "time":"8:15 - 9:30"
+                "name": "Keynote",
+                "time": "8:00 - 9:15",
+                "timeslotIndex": 0
             },
             {
-                "name":"Session 1",
-                "time":"9:45 - 10:45"
+                "name": "Session 1",
+                "time": "9:30 - 10:15",
+                "timeslotIndex": 1
             },
             {
-                "name":"Session 2",
-                "time":"11:00 - 12:00"
+                "name": "Session 2",
+                "time": "10:30 - 11:15",
+                "timeslotIndex": 2
             },
             {
-                "name":"Lunch",
-                "time":"12:00 - 1:15"
+                "name": "Session 3",
+                "time": "11:30 - 12:15",
+                "timeslotIndex": 3
             },
             {
-                "name":"Session 3",
-                "time":"1:15 - 2:15"
+                "name": "Lunch",
+                "time": "12:15 - 1:00",
+                "timeslotIndex": -2
             },
             {
-                "name":"Session 4",
-                "time":"2:30 - 3:30"
+                "name": "Session 4",
+                "time": "2:00 - 2:45",
+                "timeslotIndex": 4
             },
             {
-                "name":"Session 5",
-                "time":"3:45 - 4:45"
+                "name": "Session 5",
+                "time": "3:00 - 3:45",
+                "timeslotIndex": 5
             },
             {
-                "name":"Happy Hour",
-                "time":"4:45 - 6:00"
+                "name": "Session 6",
+                "time": "4:00 - 4:45",
+                "timeslotIndex": 6
+            },
+            {
+                "name": "Happy Hour",
+                "time": "4:45 - 6:00",
+                "timeslotIndex": -3
             }
         ]
     }
