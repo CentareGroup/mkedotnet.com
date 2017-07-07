@@ -1,3 +1,8 @@
+-function getTimeslotTime(timeslotIndex){
+-    return _.filter(public.schedule._data.index.timeSlots, function(item){
+-       return item.timeslotIndex == timeslotIndex;
+-   })[0].time
+-}
 article.speaker
     h1 #{name}
     div.row
@@ -21,4 +26,4 @@ article.speaker
                 h3
                     a(href='/sessions/#{session}') #{public.sessions[session]._data.index.name}
                 h4 #{public.sessions[session]._data.index.room}
-                h4 #{public.sessions[session]._data.index.timeslot}
+                h4 #{getTimeslotTime(public.sessions[session]._data.index.timeslot)}
