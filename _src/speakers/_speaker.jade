@@ -3,11 +3,12 @@ article.speaker
         a(href='/speakers/#{slug}') #{speaker.name}
     div.row.hide-small
         div.nine.columns.bio
-            p
-                != speaker.bio
-        //- div.three.columns.profile
-            //- img(src='/speakers/#{slug}/#{slug}.jpg')
-        //- hr
+            != speaker.bio
+        if speaker.hasPhoto
+            div.three.columns.profile.text-center
+                img(src='/speakers/#{slug}/#{slug}.jpg')
+    div.row
+        hr
     if speaker.sessions && speaker.sessions.length > 0
         h3 Sessions
         for session in speaker.sessions

@@ -6,17 +6,35 @@
 article.speaker
     h1 #{name}
     div.row
+        div.twelve.columns
+            h2.big
+                if twitter
+                    a(href='https://twitter.com/#{twitter}').social
+                        i.fa.fa-twitter
+                        span.sr-only Twitter Profile
+                if stackOverflow
+                    a(href='https://stackoverflow.com/users/#{stackOverflow}').social
+                        i.fa.fa-stack-overflow
+                        span.sr-only StackOverflow Profile
+                if github
+                    a(href='https://github.com/#{github}').social
+                        i.fa.fa-github
+                        span.sr-only GitHub Profile
+                if linkedIn
+                    a(href='https://www.linkedin.com/in/#{linkedIn}').social
+                        i.fa.fa-linkedin
+                        span.sr-only LinkedIn Profile
+                if blog
+                    a(href='http://#{blog}').social
+                        i.fa.fa-user-circle-o
+                        span.sr-only Website
+    div.row
         div.nine.columns.bio
-            if twitter
-                h3
-                    a(href='https://twitter.com/#{twitter}') @#{twitter}
-            if blog
-                h3
-                    a(href='http://#{blog}') #{blog}
-            p
-                != bio
-        div.three.columns.profile
-            //- img(src='#{current.path[1]}.jpg')
+            if jobTitle
+            != bio
+        if hasPhoto
+            div.three.columns.profile.text-center
+                img(src='#{current.path[1]}.jpg')
 
     if sessions && sessions.length > 0
         hr

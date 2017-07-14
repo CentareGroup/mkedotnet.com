@@ -1,11 +1,14 @@
 {
-    "index":{
+    "index": {
         "name": "Scott Addie",
         "sessions": ["reusable-ui-components-in-asp-net-core-mvc"],
         "bio": "<p>Scott Addie is an avid blogger, a Telerik Developer Network author, and a technical evangelist of the modern web. Scott has reached masses of developers through blog posts, articles, and speaking engagements at user groups, code camps, and conferences across North America. With a strong emphasis on JavaScript and the Microsoft web technology stack, Scott holds numerous industry-recognized Microsoft development certifications and has been named a Microsoft MVP in the award category of Visual Studio and Development Technologies. His thought leadership in the .NET community has also earned him a seat in the Telerik Developer Experts program. As a firm believer in giving back to the community, Scott is a frequent open source contributor to high-profile GitHub projects, including ASP.NET Core, OmniSharp, Visual Studio Code, and a plethora of Visual Studio proper extensions.</p>",
-        "blog":"scottaddie.com",
-        "twitter":"Scott_Addie",
+        "blog": "scottaddie.com",
+        "twitter": "Scott_Addie",
+        "github": "scottaddie",
+        "linkedIn": "scottaddie",
+        "hasPhoto": true,
         "title": "Scott Addie | Speakers | MKE DOT NET 2017",
-        "metaDescription":"Speaker Bio for Scott Addie"
+        "metaDescription": "Speaker Bio for Scott Addie"
     }
 }

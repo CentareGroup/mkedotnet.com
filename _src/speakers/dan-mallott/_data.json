@@ -1,10 +1,13 @@
 {
-    "index":{
+    "index": {
         "name": "Dan Mallott",
         "sessions": ["orms-and-the-dba"],
         "bio": "<p>Dan Mallott is a Chicago-based consultant for West Monroe Partners in their Technology Practice. His passion is for .NET service-layer development using .NET, Microsoft SQL Server and Apache Cassandra. A former DBA, he takes great pride in finding high-performing solutions to data access problems and has lead performance-tuning efforts in several organizations. In his spare time, he can be found writing his own software instead of using package solutions or on the ice as an ice hockey player and referee.</p>",
-        "twitter":"danielmallott",
+        "twitter": "danielmallott",
+        "github": "danielmallott",
+        "linkedIn": "danielmallott",
+        "hasPhoto": true,
         "title": "Dan Mallott | Speakers | MKE DOT NET 2017",
-        "metaDescription":"Speaker Bio for Dan Mallott"
+        "metaDescription": "Speaker Bio for Dan Mallott"
     }
 }

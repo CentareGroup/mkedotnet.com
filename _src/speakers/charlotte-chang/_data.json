@@ -1,11 +1,12 @@
 {
-    "index":{
+    "index": {
         "name": "Charlotte Chang",
         "sessions": ["climbing-rocks-and-coding-blocks"],
         "bio": "<p>Charlotte is a system scientist and tech enthusiast who loves dogs. An organizational design coach by day, she is multi-disciplined in full stack Ruby on Rails development, web-based user experience, and hardware-software integrated product management. She has presented at PyCon Education Summit 2017, AgileDC 2016, Scenic City Summit 2016, CodeMash 2016, and accepted at AgileToronto 2016. Whether it be coding or coaching, Charlotte enjoys a quality high five.</p>",
-        "blog":"glamouracademy.github.io/",
-        "twitter":"pushorpull",
+        "blog": "glamouracademy.github.io/",
+        "twitter": "pushorpull",
+        "hasPhoto": true,
         "title": "Charlotte Chang | Speakers | MKE DOT NET 2017",
-        "metaDescription":"Speaker Bio for Charlotte Chang"
+        "metaDescription": "Speaker Bio for Charlotte Chang"
     }
 }
