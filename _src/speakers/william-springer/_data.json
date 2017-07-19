@@ -1,11 +1,14 @@
 {
-    "index":{
+    "index": {
         "name": "William Springer",
         "sessions": ["understanding-sorts"],
         "bio": "<p>Who am I? I’m a software developer with a PhD in computer science, a passion for teaching, and a very large collection of board games. My current project is figuring out how to relate computer science concepts to working programmers, demonstrating how they can take theory and apply it to their day-to-day work.</p>",
-        "blog":"www.whatwilliamsaid.com",
-        "twitter":"wmspringer",
+        "blog": "www.whatwilliamsaid.com",
+        "twitter": "wmspringer",
+        "jobTitle": "Senior Software Developer",
+        "company": "Epic",
+        "hasPhoto": true,
         "title": "William Springer | Speakers | MKE DOT NET 2017",
-        "metaDescription":"Speaker Bio for William Springer"
+        "metaDescription": "Speaker Bio for William Springer"
     }
 }

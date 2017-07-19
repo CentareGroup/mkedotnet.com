@@ -1,10 +1,13 @@
 {
-    "index":{
+    "index": {
         "name": "James Pemberton",
         "sessions": ["branching-strategies"],
         "bio": "<p>I’ve been a full stack .Net developer since 2002. In that time, I’ve encountered a variety of source control technologies and branching strategies. Each new project and team I’ve worked on has had to examine carefully how it handled branching and the best way to move forward.</p><p>I’ve worked in traditional Waterfall environments, Single and Multi-Teams agile environments. All these projects and teams have presented their own challenges and opportunities that gave me a wealth of experience.</p>",
-        "blog":"www.centare.com/blog",
+        "blog": "www.centare.com/blog",
+        "jobTitle": "Software Consultant",
+        "company": "Centare",
+        "hasPhoto": true,
         "title": "James Pemberton | Speakers | MKE DOT NET 2017",
-        "metaDescription":"Speaker Bio for James Pemberton"
+        "metaDescription": "Speaker Bio for James Pemberton"
     }
 }
