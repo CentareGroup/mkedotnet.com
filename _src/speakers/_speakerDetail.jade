@@ -3,6 +3,20 @@
 -       return item.timeslotIndex == timeslotIndex;
 -   })[0].time
 -}
+-
+-function getPosition(jobTitle, company){
+-    if (jobTitle && company){
+-        return jobTitle + ' at ' + company;
+-    }
+-    if (jobTitle) {
+-        return jobTitle;
+-    }
+-    if (company){
+-        return company;
+-    }
+-    return null;
+-}
+
 article.speaker
     h1 #{name}
     div.row
@@ -28,9 +42,11 @@ article.speaker
                     a(href='http://#{blog}').social
                         i.fa.fa-user-circle-o
                         span.sr-only Website
+    if jobTitle || company
+        h3
+            != getPosition(jobTitle, company)
     div.row
         div.nine.columns.bio
-            if jobTitle
             != bio
         if hasPhoto
             div.three.columns.profile.text-center
