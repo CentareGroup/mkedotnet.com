@@ -4,7 +4,7 @@
         "name": "Branching Strategies",
         "description": "<p>Branches are like opinions - everyone has one, and just like opinions, everyone thinks theirs is right. Branching strategies are hotly contested and vigorously defended. The fact of the matter is there isn’t a universal “right” strategy.</p><p>We’ll be going over everything from the basics of branching to more complex, multi-team branching situations. We’ll start with why you should be branching and the benefits it gives development teams. Next, we’ll discuss very specific branching strategies like feature, release and sprint branches. Finally, we’ll examine some of the more common pitfalls of branching and ways to mitigate them.</p><p>At the end of our discussion, you’ll walk away with a greater knowledge of the concept of branching. You’ll be able to take what you’ve learned today back to your company, team or personal project and decide for what’s the right strategy for you.</p>",
         "timeslot": "5",
-        "room": "",
+        "room": "Clarity",
         "title": "Branching Strategies | Sessions | MKE DOT NET 2017",
         "metaDescription": "Branching Strategies"
     }

@@ -4,7 +4,7 @@
         "name": "Building Reusable UI Components in ASP.NET Core MVC",
         "description": "<p>ASP.NET proper MVC developers have long relied upon partial views and HTML helpers to construct reusable UI components. ASP.NET Core MVC expands upon the arsenal of options for creating such UI components by introducing view components and tag helpers. Do these new offerings render partial views and HTML helpers obsolete? Absolutely not!</p><p>Using the right tool for the job is important, which means understanding the differences between these options is paramount. In this session, you’ll gain an understanding of when it’s most appropriate to use each of them in the real world. You’ll also see how to create basic view components and tag helpers.</p>",
         "timeslot": "5",
-        "room": "",
+        "room": "Inspire",
         "title": "Building Reusable UI Components in ASP.NET Core MVC | Sessions | MKE DOT NET 2017",
         "metaDescription": "Building Reusable UI Components in ASP.NET Core MVC"
     }

@@ -4,7 +4,7 @@
         "name": "The Impact of Leveraging Open Source",
         "description": "<p>Open source tools. We all use them. Whether an entire framework, a focused toolkit, or a simple custom component from GitHub or NuGet, the opportunity to improve our development speed while learning new things from open source projects is enticing.</p><p>But what does “open source” truly mean? When working in a professional environment, what are our rights and limitations as open source consumers to use, modify, and redistribute these tools? The answer depends upon the OSS author’s own decisions regarding project licensing. We will investigate the core principles of open source development and consumption while comparing and contrasting some of the more popular licenses in use today. Learn to make better decisions for your organization by becoming informed of how best to leverage the open source works of others and also how to properly license your own.</p>",
         "timeslot": "1",
-        "room": "",
+        "room": "Prosperity",
         "title": "The Impact of Leveraging Open Source | Sessions | MKE DOT NET 2017",
         "metaDescription": "The Impact of Leveraging Open Source"
     }
