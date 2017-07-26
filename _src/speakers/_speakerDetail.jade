@@ -23,23 +23,23 @@ article.speaker
         div.twelve.columns
             h2.big
                 if twitter
-                    a(href='https://twitter.com/#{twitter}').social
+                    a(href='https://twitter.com/#{twitter}', target="_blank").social
                         i.fa.fa-twitter
                         span.sr-only Twitter Profile
                 if stackOverflow
-                    a(href='https://stackoverflow.com/users/#{stackOverflow}').social
+                    a(href='https://stackoverflow.com/users/#{stackOverflow}', target="_blank").social
                         i.fa.fa-stack-overflow
                         span.sr-only StackOverflow Profile
                 if github
-                    a(href='https://github.com/#{github}').social
+                    a(href='https://github.com/#{github}', target="_blank").social
                         i.fa.fa-github
                         span.sr-only GitHub Profile
                 if linkedIn
-                    a(href='https://www.linkedin.com/in/#{linkedIn}').social
+                    a(href='https://www.linkedin.com/in/#{linkedIn}', target="_blank").social
                         i.fa.fa-linkedin
                         span.sr-only LinkedIn Profile
                 if blog
-                    a(href='http://#{blog}').social
+                    a(href='http://#{blog}', target="_blank").social
                         i.fa.fa-user-circle-o
                         span.sr-only Website
     if jobTitle || company
