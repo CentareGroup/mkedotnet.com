@@ -1,0 +1,15 @@
+{
+    "index": {
+        "name": "Dana Hart",
+        "sessions": ["teaching-alexa-new-tricks-with-javaScript"],
+        "bio": "<p>Dana Hart is an Engineering Lead at Northwestern Mutual. Her current technical focus is JavaScript and re-platforming Northwestern Mutual’s client website to a JavaScript stack in the cloud. Her main career focus for the past 12 years has been web development and client experience. When she is not focusing on this week’s latest JavaScript trend she can be found tinkering with Alexa skills, baking a tasty treat, enjoying the outdoors or chasing her kids around.</p>",
+        "blog": null,
+        "twitter": null,
+        "linkedIn": null,
+        "jobTitle": "Engineering Lead",
+        "company": "Northwestern Mutual",
+        "hasPhoto": true,
+        "title": "Dana Hart | Speakers | MKE DOT NET 2017",
+        "metaDescription": "Speaker Bio for Dana Hart"
+    }
+}

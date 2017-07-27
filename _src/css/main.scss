@@ -1,13 +1,6 @@
 @import '_variables.scss';
 @import '../../node_modules/skeleton-scss/scss/skeleton.scss';
 
-$bp-smaller-than-phablet: "max-width: 400px" !default;
-$bp-smaller-than-tablet: "max-width: 550px" !default;
-$bp-smaller-than-desktop: "max-width: 750px" !default;
-$bp-smaller-than-desktophd: "max-width: 1000px" !default;
-$bp-large-nav-starts-at: "900px";
-$bp-medium-nav-starts-at: "460px";
-
 html {
     min-height: 100%;
     position: relative;
@@ -230,50 +223,8 @@ h6 {
     }
 }
 
-.sponsors {
-    img {
-        vertical-align: middle;
-        padding: 0 10px;
-    }
-    .platinum img {
-        max-width: 100%;
-    }
-    .gold {
-        text-align: center;
-        img {
-            max-width: 50%;
-        }
-    }
-    .silver {
-        text-align: center;
-        img {
-            max-width: 25%;
-            margin: 0.5em;
-            @media (max-width: $bp-large-nav-starts-at) {
-                max-width: 55%;
-            }
-        }
-    }
-    .bronze {
-        text-align: center;
-        img {
-            max-width: 15%;
-            margin: 0.5em;
-            @media (max-width: $bp-large-nav-starts-at) {
-                max-width: 30%;
-            }
-        }
-    }
-    .products {
-        text-align: center;
-        img {
-            width: 20%;
-            @media (max-width: $bp-large-nav-starts-at) {
-                width: 40%;
-            }
-        }
-    }
-}
+@import 'sponsors';
+
 .center {
     text-align: center;
 }

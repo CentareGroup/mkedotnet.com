@@ -1,0 +1,62 @@
+@import '_variables.scss';
+
+.sponsors {
+    h1, h2, h3, h4, h5 { padding-top: 2rem; }
+
+    h1 { font-size: 40px; }
+    h2 { font-size: 35px; }
+    h3 { font-size: 30px; }
+    h4 { font-size: 25px; }
+    h5 { font-size: 25px; }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    li {
+        list-style: none;
+        padding: 2rem 3rem;
+        margin: 0;
+        box-sizing: border-box;
+        display: inline-block;
+        text-align: center;
+    }
+    img {
+        vertical-align: middle;
+        padding: 0 10px;
+        width: 100%;
+    }
+    .platinum {
+        li {
+            width: 100%;
+            @media (min-width: $bp-medium-plus-nav-starts-at) {
+                width: 50%;
+            }
+        }
+    }
+    .gold {
+        li {
+            width: 50%;
+            @media (min-width: $bp-medium-plus-nav-starts-at) {
+                width: 33%;
+            }
+        }
+    }
+    .silver {
+        li {
+            width: 50%;
+            @media (min-width: $bp-medium-plus-nav-starts-at) {
+                width: 25%;
+            }
+        }
+    }
+    .bronze {
+        li {
+            width: 33%;
+            @media (min-width: $bp-medium-plus-nav-starts-at) {
+                width: 20%;
+            }
+        }
+    }
+}

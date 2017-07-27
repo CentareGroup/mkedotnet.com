@@ -34,6 +34,11 @@
                 "timeslotIndex": -2
             },
             {
+                "name": "Special Sessions / Open Sessions",
+                "time": "1:00 - 1:45",
+                "timeslotIndex": -4
+            },
+            {
                 "name": "Session 4",
                 "time": "2:00 - 2:45",
                 "timeslotIndex": 4
