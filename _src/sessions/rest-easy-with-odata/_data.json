@@ -1,6 +1,6 @@
 {
     "index": {
-        "speaker": "peter-craig",
+        "speaker": "pete-craig",
         "name": "Rest easy with OData",
         "description": "<p>Do you think that REST means all your API has to do is support HTTP GETs and POSTs and return JSON? Have you had to consume one of these very primitive APIs? They can suffer from poor performance and require a lot of custom coding on the client side.</p><p>We'll dig deeper into the RESTful architecture and learn how OData can make it easy to deliver a full featured API with metadata, rich querying syntax, paging, asynchronous batch requests, full CRUD support, collection operations, and optimistic concurrency control.</p><p>Developers, architects, and managers will find this information useful. We will occasionally free dive into some C# code, but will frequently come up for air.</p>",
         "timeslot": "-4",
