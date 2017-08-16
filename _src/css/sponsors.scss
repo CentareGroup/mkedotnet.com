@@ -99,7 +99,7 @@
             height: 12rem;
 
             @media (min-width: $bp-medium-plus-nav-starts-at) {
-                width: 21%;
+                width: 22%; // change this back to 21 if we get more than 5 silver sponsors
                 margin-left: 2%;
                 margin-right: 2%;
                 height: 15rem;
