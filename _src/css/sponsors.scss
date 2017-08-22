@@ -53,7 +53,16 @@
         }
     }
 
-    
+    .presenting {
+        li {
+            width: 100%;
+            border: none;
+
+            img {
+                height: 100%;
+            }
+        }
+    }
 
     .platinum {
         li {
