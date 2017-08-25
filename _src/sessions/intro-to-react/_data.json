@@ -1,0 +1,11 @@
+{
+    "index": {
+        "speaker": "vince-maiuri",
+        "name": "Components of Good UI: Intro to ReactJS",
+        "description": "<p>React is Facebook’s contribution to rendering user interfaces. It’s a JavaScript library that does one thing and does one thing well – Rendering your views. </p><p>So why use it? Glad you asked! We’ll be discussing that exact topic, including basic React principles, data flow, and how it differs from that other UI solution: Angular. Throughout all we’ll mix in some live coding demonstrations. This is targeted for React beginners, but hopefully there will be useful nuggets for any skill level. Please come with questions!</p>",
+        "timeslot": "-4",
+        "room": "Inspire",
+        "title": "Components of Good UI: Intro to ReactJS | Sessions | MKE DOT NET 2017",
+        "metaDescription": "Components of Good UI: Intro to ReactJS"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "index": {
+        "name": "Vince Maiuri",
+        "sessions": ["intro-to-react"],
+        "bio": "<p>I’m a husband, father, and a Software engineer who definitely took the long way round. My technical passion is all things front end. My professional passion is solving problems for customers, internal and external. I’ve worked for Direct Supply for the last 3 years with various areas of responsibility. I’ve worked with build systems, our eCommerce product, as well as our own internal tooling. Throughout it all I’ve maintained focus on trying to provide my users with the best experience possible. When I’m not working, I enjoy hiking, running, and gaming. Luckily I also enjoy being a father, or I might be bitter that I don’t have much time for any of that other stuff!</p>",
+        "linkedIn": "vincent-maiuri-84087791",
+        "github": "RookY2K",
+        "jobTitle": "Software Engineer",
+        "company": "Direct Supply",
+        "hasPhoto": true,
+        "title": "Vince Maiuri | Speakers | MKE DOT NET 2017",
+        "metaDescription": "Speaker Bio for Vince Maiuri"
+    }
+}
