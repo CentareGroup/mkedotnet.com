@@ -1,5 +1,6 @@
 @import '_variables.scss';
 @import '../../node_modules/skeleton-scss/scss/skeleton.scss';
+@import '../../node_modules/luxbar/scss/luxbar.scss';
 
 html {
     min-height: 100%;
@@ -31,6 +32,13 @@ footer {
 
     .shade {
         display: block;
+    }
+}
+
+@media (max-width: $bp-medium-plus-nav-starts-at) {
+    .header-main {
+        background: none;
+        background-color: black;
     }
 }
 
@@ -140,7 +148,7 @@ h6 {
     right: 0;
     left: 50%;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.5);
 
     & + * {
         z-index: 100;
@@ -251,6 +259,10 @@ h6 {
 #main-menu {
     height: 5rem;
 
+    #main-menu-toggle {
+        display: none;
+    }
+
     #wordmark {
         margin: 0;
         padding: 5px;
@@ -296,8 +308,11 @@ h6 {
         }
     }
 }
+//smaller than ~900
 @media (max-width: $bp-large-nav-starts-at) {
     #main-menu {
+        height: auto;
+
         #wordmark {
             a {
                 width: 100%;
@@ -329,16 +344,38 @@ h6 {
         }
     }
 }
-@media (max-width: $bp-medium-nav-starts-at) {
+//smaller than ~720
+@media (max-width: $bp-medium-plus-nav-starts-at) {
     #main-menu {
         #wordmark {
-            width: 260px;
+            width: 100%;
             float: none;
             margin-left: auto;
             margin-right: auto;
+            padding-bottom: 25px;
+        }
+        #main-menu-toggle {
+            display: block;
+            text-align: right;
+            position: absolute;
+            right: 0;
+            top: 1em;
+            font-size: 1.8em;
+            > a {
+                display: inline-block;
+                color: $white;
+                line-height: 40px;
+                height: 40px;
+                &:hover {
+                    color: $orange;
+                    border-color: $orange;
+                }
+            }
         }
         > ul {
+            display: none;
             width: 100%;
+            border-top: 1px solid $orange;
             > li {
                 width: 100%;
                 text-align: center;
@@ -348,9 +385,23 @@ h6 {
                 }
             }
         }
+        &.expanded {
+            > ul {
+                display: block;
+            }
+        }
     }
 }
-@media (min-width: $bp-medium-nav-starts-at) and (max-width: $bp-large-nav-starts-at) {
+//smaller than ~400
+@media ($bp-smaller-than-phablet) {
+    #main-menu {
+        #main-menu-toggle {
+            right: 20px;
+        }
+    }
+}
+//between ~720 and ~900
+@media (min-width: $bp-medium-plus-nav-starts-at) and (max-width: $bp-large-nav-starts-at) {
     #main-menu {
         width: 100%;
         margin-left: 0;
