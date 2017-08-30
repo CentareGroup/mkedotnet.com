@@ -14,10 +14,10 @@ $border-color: $light-blue;
 $link-color: $dark-blue;
 $font-color: $black;
 
-$bp-smaller-than-phablet: "max-width: 400px" !default;
-$bp-smaller-than-tablet: "max-width: 550px" !default;
-$bp-smaller-than-desktop: "max-width: 750px" !default;
-$bp-smaller-than-desktophd: "max-width: 1000px" !default;
-$bp-large-nav-starts-at: "900px";
-$bp-medium-plus-nav-starts-at: "720px";
-$bp-medium-nav-starts-at: "460px";
+$bp-smaller-than-phablet: 'max-width: 400px' !default;
+$bp-smaller-than-tablet: 'max-width: 550px' !default;
+$bp-smaller-than-desktop: 'max-width: 750px' !default;
+$bp-smaller-than-desktophd: 'max-width: 1000px' !default;
+$bp-large-nav-starts-at: '920px';
+$bp-medium-plus-nav-starts-at: '720px';
+$bp-medium-nav-starts-at: '460px';
