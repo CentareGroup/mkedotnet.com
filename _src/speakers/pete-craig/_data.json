@@ -2,9 +2,10 @@
     "index": {
         "name": "Pete Craig",
         "sessions": ["rest-easy-with-odata"],
-        "bio": "<p>Pete is a Senior Staff Software Engineer at Johnson Controls. He works primarily with back-end services including background processing and integrating with third-party systems. He has developed a couple Web APIs for Johnson Controls and is passionate about RESTful Web APIs. His current project requires integration with a not-very-RESTful Web API, motivating him to educate others on good Web API design.</p>",
+        "bio":
+            "<p>Pete is a Senior Staff Software Engineer at Johnson Controls. He works primarily with back-end services including background processing and integrating with third-party systems. He has developed a couple Web APIs for Johnson Controls and is passionate about RESTful Web APIs. His current project requires integration with a not-very-RESTful Web API, motivating him to educate others on good Web API design.</p>",
         "blog": "",
-        "twitter": "",
+        "stackOverflow": "8524110/pete-craig",
         "github": "peter172sp",
         "linkedIn": "petecraig",
         "hasPhoto": true,
