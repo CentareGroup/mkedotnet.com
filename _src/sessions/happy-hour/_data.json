@@ -2,7 +2,8 @@
     "index": {
         "speaker": null,
         "name": "Happy Hour & Closing",
-        "description": "Join us for happy hour in the Woodland Dreams Ballroom! Grab a drink or two on us, and meet some more wonderful people from your local development community.",
+        "description":
+            "Join us for the closing notes and happy hour in the Woodland Dreams Ballroom! Grab a drink or two on us, and meet some more wonderful people from your local development community. We'll also be raffling off some prizes - and yes, you need to be there to win!",
         "timeslot": "-3",
         "room": "Woodland Dreams Ballroom",
         "title": "Happy Hour & Closing | Sessions | MKE DOT NET 2017",
