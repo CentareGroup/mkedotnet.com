@@ -10,9 +10,6 @@ h1 Schedule
 //- pre #{ JSON.stringify(getSessionsForTimeslot('1:15 - 2:15')), null, '\t')
 
 div.schedule
-
-    <div class="violator white big"><b class="fa fa-exclamation-triangle"></b> All schedules have been updated to reflect<br>a delay of 15 mins due to road closures.</div>
-
     for timeslot in timeSlots
         != partial("_timeslot")
         article.timeslot
