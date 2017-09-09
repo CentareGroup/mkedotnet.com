@@ -6,6 +6,21 @@
     padding: 1rem;
     color: black;
     border-radius: 6px;
+
+    &.white {
+        color: white !important;
+    }
+
+    &.big {
+        font-size: 150%;
+        padding: 2rem 4rem;
+        text-align:center;
+        line-height: 1.25;
+    }
+
+    b {
+        padding-right: 0.5rem;
+    }
 }
 
 .live-stream a{
