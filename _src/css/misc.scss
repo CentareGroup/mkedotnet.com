@@ -7,3 +7,17 @@
     color: black;
     border-radius: 6px;
 }
+
+.live-stream a{
+    background-color: $orange;
+    padding: 0.5rem;
+
+    b {
+        padding-right: 0.5rem;
+    }
+
+    &:hover {
+        color: black !important;
+    }
+    
+}
