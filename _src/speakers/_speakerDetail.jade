@@ -47,7 +47,7 @@ article.speaker
             != getPosition(jobTitle, company)
     div.row
         div.nine.columns.bio
-            != bio
+            != partial('_bio')
         if hasPhoto
             div.three.columns.profile.text-center
                 img(src='#{current.path[1]}.jpg')

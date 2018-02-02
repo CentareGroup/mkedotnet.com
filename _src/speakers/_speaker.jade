@@ -3,7 +3,7 @@ article.speaker
         a(href='/speakers/#{slug}') #{speaker.name}
     div.row.hide-small
         div.nine.columns.bio
-            != speaker.bio
+            != partial(`${slug}/_bio`)
         if speaker.hasPhoto
             div.three.columns.profile.text-center
                 img(src='/speakers/#{slug}/#{slug}.jpg')
