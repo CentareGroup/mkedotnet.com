@@ -12,11 +12,12 @@ The site is currently hosted on Github Pages. Github Pages watches the repositor
 
 ## Setting up your local development environment
 ### NodeJs
-You will need version 4.5.0 (or possibly earlier) of nodeJs installed locally.
-At some point in the v6 range, nodeJs made a change that broke the node-sass package upon which HarpJs depends.
-The node-sass package has since been fixed, but HarpJs is still relying on an older (broken) version.
-If you have version 6.x of nodeJs installed, you are not out of luck - you can use [nvm](https://github.com/creationix/nvm) (on a Mac/Linux), or [nvm-windows](https://github.com/coreybutler/nvm-windows) (on Windows), to run multiple versions of node on your machine.
-If you do end up installing a nodeJs version manager, switch to nodeJs version 4.5.0.
+
+Somewhere around the v6 range, nodeJs made a change that broke the node-sass package upon which HarpJs depends. It was fixed after version 6, but I'm not exactly sure when. 
+
+NodeJs versions <= 4.5.0 or >= 8.9.3 are definitely safe to run HarpJs. Versions in between may or may not be safe. Version 6 was definitely not working at one point, but I don't know which specific version.
+
+If you are running a version between 4.5.0 and 8.9.3, you are not out of luck - you can use [nvm](https://github.com/creationix/nvm) (on a Mac/Linux), or [nvm-windows](https://github.com/coreybutler/nvm-windows) (on Windows), to run multiple versions of node on your machine. Once you've installed a version manager, switch to nodeJs v8.9.3 to run the app locally.
 
 ### HarpJs
 You will then need to install HarpJs globally.
