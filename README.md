@@ -12,11 +12,12 @@ The site is currently hosted on Github Pages. Github Pages watches the repositor
 
 ## Setting up your local development environment
 ### NodeJs
-You will need version 4.5.0 (or possibly earlier) of nodeJs installed locally.
-At some point in the v6 range, nodeJs made a change that broke the node-sass package upon which HarpJs depends.
-The node-sass package has since been fixed, but HarpJs is still relying on an older (broken) version.
-If you have version 6.x of nodeJs installed, you are not out of luck - you can use [nvm](https://github.com/creationix/nvm) (on a Mac/Linux), or [nvm-windows](https://github.com/coreybutler/nvm-windows) (on Windows), to run multiple versions of node on your machine.
-If you do end up installing a nodeJs version manager, switch to nodeJs version 4.5.0.
+
+Somewhere around the v6 range, nodeJs made a change that broke the node-sass package upon which HarpJs depends. It was fixed after version 6, but I'm not exactly sure when. 
+
+NodeJs versions <= 4.5.0 or >= 8.9.3 are definitely safe to run HarpJs. Versions in between may or may not be safe. Version 6 was definitely not working at one point, but I don't know which specific version.
+
+If you are running a version between 4.5.0 and 8.9.3, you are not out of luck - you can use [nvm](https://github.com/creationix/nvm) (on a Mac/Linux), or [nvm-windows](https://github.com/coreybutler/nvm-windows) (on Windows), to run multiple versions of node on your machine. Once you've installed a version manager, switch to nodeJs v8.9.3 to run the app locally.
 
 ### HarpJs
 You will then need to install HarpJs globally.
@@ -53,7 +54,11 @@ There is probably also a better way to manage the current year so that it is eas
     * previous archived year folders
 2. Find all links to the root of the site, and replace them. Examples:
     * `href="/sessions..."` -> `href="/year/sessions..."`
+    * `a(href='/sessions...'` -> `a(href='/year/sessions...'`
     * `src="/js..."` -> `src="/year/js..."`
+    * `img(src='/speakers...'` -> `img(src='/year/speakers...'`
+    * `url('/images/...'` -> `url('/year/images/...'`
+    * `include /speakers...` -> `include /year/speakers...`
 3. Fix all harp references to public.XXXX. Since all the content is now moved into the /year folder, references to it via the public object need to be changed. Since the folder is a number, you can't simply do something like `public.2016.sessions` - because this is JavaScript and 2016 is a number. Access the year via the indexer, i.e. `public['2016'].sessions`. Examples:
     * `public.speakers[session.speaker]` -> `public['year'].speakers[session.speaker]`
     * `for speaker, slug in public.speakers` -> `for speaker, slug in public['year'].speakers`
