@@ -54,7 +54,11 @@ There is probably also a better way to manage the current year so that it is eas
     * previous archived year folders
 2. Find all links to the root of the site, and replace them. Examples:
     * `href="/sessions..."` -> `href="/year/sessions..."`
+    * `a(href='/sessions...'` -> `a(href='/year/sessions...'`
     * `src="/js..."` -> `src="/year/js..."`
+    * `img(src='/speakers...'` -> `img(src='/year/speakers...'`
+    * `url('/images/...'` -> `url('/year/images/...'`
+    * `include /speakers...` -> `include /year/speakers...`
 3. Fix all harp references to public.XXXX. Since all the content is now moved into the /year folder, references to it via the public object need to be changed. Since the folder is a number, you can't simply do something like `public.2016.sessions` - because this is JavaScript and 2016 is a number. Access the year via the indexer, i.e. `public['2016'].sessions`. Examples:
     * `public.speakers[session.speaker]` -> `public['year'].speakers[session.speaker]`
     * `for speaker, slug in public.speakers` -> `for speaker, slug in public['year'].speakers`
